@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钓鱼邮件检测系统</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header class="header">
+            <h1><i class="fas fa-shield-alt"></i> 钓鱼邮件检测系统</h1>
+            <p class="subtitle">基于LLM的混合威胁检测平台</p>
+        </header>
+
+        <!-- 主要内容 -->
+        <main class="main-content">
+            <!-- 输入区域 -->
+            <section class="input-section">
+                <div class="tabs">
+                    <button class="tab-button active" onclick="switchTab('text')">
+                        <i class="fas fa-keyboard"></i> 文本输入
+                    </button>
+                    <button class="tab-button" onclick="switchTab('file')">
+                        <i class="fas fa-file-upload"></i> 文件上传
+                    </button>
+                </div>
+
+                <!-- 文本输入面板 -->
+                <div id="text-panel" class="tab-panel active">
+                    <textarea 
+                        id="email-content" 
+                        class="email-input" 
+                        placeholder="请在此粘贴邮件内容...&#10;&#10;示例：&#10;Dear User,&#10;&#10;Your account has been suspended due to unusual activity. Click here to verify: http://suspicious-link.com&#10;&#10;Urgent action required within 24 hours!"></textarea>
+                    <div class="button-group">
+                        <button class="btn btn-primary" onclick="detectEmail()">
+                            <i class="fas fa-search"></i> 开始检测
+                        </button>
+                        <button class="btn btn-secondary" onclick="loadSample()">
+                            <i class="fas fa-file-alt"></i> 加载示例
+                        </button>
+                        <button class="btn btn-secondary" onclick="clearInput()">
+                            <i class="fas fa-eraser"></i> 清空
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 文件上传面板 -->
+                <div id="file-panel" class="tab-panel">
+                    <div class="upload-area" id="upload-area">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>拖拽文件到此处或点击选择文件</p>
+                        <input type="file" id="file-input" accept=".txt,.eml" onchange="handleFileSelect(event)">
+                        <button class="btn btn-primary" onclick="document.getElementById('file-input').click()">
+                            选择文件
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 结果显示区域 -->
+            <section class="result-section" id="result-section" style="display: none;">
+                <h2><i class="fas fa-chart-line"></i> 检测结果</h2>
+                
+                <!-- 风险评分卡片 -->
+                <div class="result-card">
+                    <div class="score-display">
+                        <div class="score-circle" id="score-circle">
+                            <div class="score-value" id="score-value">--</div>
+                            <div class="score-label">风险评分</div>
+                        </div>
+                        <div class="result-info">
+                            <div class="info-item">
+                                <span class="info-label">检测结果：</span>
+                                <span class="info-value" id="classification">--</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">风险等级：</span>
+                                <span class="info-value risk-badge" id="risk-level">--</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">置信度：</span>
+                                <span class="info-value" id="confidence">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 风险点 -->
+                <div class="result-card" id="risk-points-card" style="display: none;">
+                    <h3><i class="fas fa-exclamation-triangle"></i> 风险点</h3>
+                    <ul id="risk-points-list" class="feature-list"></ul>
+                </div>
+
+                <!-- 安全建议 -->
+                <div class="result-card" id="suggestions-card" style="display: none;">
+                    <h3><i class="fas fa-lightbulb"></i> 安全建议</h3>
+                    <ul id="suggestions-list" class="feature-list"></ul>
+                </div>
+
+                <!-- 特征详情 -->
+                <div class="result-card">
+                    <h3><i class="fas fa-info-circle"></i> 特征详情</h3>
+                    <div class="features-grid" id="features-grid">
+                        <!-- 动态生成 -->
+                    </div>
+                </div>
+
+                <!-- 操作按钮 -->
+                <div class="button-group">
+                    <button class="btn btn-secondary" onclick="generateReport()">
+                        <i class="fas fa-file-pdf"></i> 生成详细报告
+                    </button>
+                    <button class="btn btn-secondary" onclick="resetDetection()">
+                        <i class="fas fa-redo"></i> 重新检测
+                    </button>
+                </div>
+            </section>
+
+            <!-- 加载动画 -->
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>正在分析邮件...</p>
+            </div>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>网络安全技术课程实践项目 | 基于LLM的钓鱼邮件检测系统</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

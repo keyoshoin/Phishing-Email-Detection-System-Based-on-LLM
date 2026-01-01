@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "type": "traditional_phishing",
+    "subject": "紧急通知：您的账户即将被暂停",
+    "content": "尊敬的用户：\n\n我们检测到您的账户存在异常活动。为了保护您的账户安全，我们需要您立即验证身份信息。\n\n请点击以下链接完成验证：\nhttp://secure-bank-verify.tk/verify?id=abc123\n\n请在24小时内完成验证，否则您的账户将被永久暂停。\n\n如有疑问，请立即联系我们。\n\n银行安全中心",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 2,
+    "type": "traditional_phishing",
+    "content": "Dear User,\n\nCongratulations! You have won $1,000,000 in our lottery!\n\nTo claim your prize, please provide:\n- Your full name\n- Credit card number\n- Social security number\n- Password\n\nClick here immediately: http://192.168.1.100/claim\n\nThis offer expires in 24 hours! ACT NOW!!!\n\nBest regards,\nLottery Committee",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 3,
+    "type": "llm_generated_phishing",
+    "subject": "Important Security Update Required",
+    "content": "Dear Valued Customer,\n\nWe have recently upgraded our security systems to better protect your account. As part of this update, we need you to verify your account information.\n\nPlease click the link below to complete the verification process:\nhttps://account-security-update.com/verify\n\nThis verification is mandatory and must be completed within 48 hours. Failure to do so may result in temporary account restrictions.\n\nWe appreciate your cooperation in helping us maintain the security of your account.\n\nThank you for your prompt attention to this matter.\n\nBest regards,\nCustomer Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 4,
+    "type": "normal",
+    "subject": "Your Monthly Statement is Ready",
+    "content": "Hello,\n\nYour monthly account statement for November 2024 is now available.\n\nYou can view your statement by logging into your account at our official website: https://www.officialbank.com\n\nIf you have any questions about your statement, please contact our customer service team at 1-800-123-4567.\n\nThank you for banking with us.\n\nSincerely,\nOfficial Bank Customer Service",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 5,
+    "type": "normal",
+    "subject": "Meeting Reminder: Project Update",
+    "content": "Hi Team,\n\nThis is a reminder about our project update meeting scheduled for tomorrow at 2:00 PM.\n\nAgenda:\n1. Progress review\n2. Timeline discussion\n3. Resource allocation\n\nPlease come prepared with your updates.\n\nSee you tomorrow!\n\nBest,\nProject Manager",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 6,
+    "type": "traditional_phishing",
+    "content": "URGENT ACTION REQUIRED!!!\n\nYour PayPal account has been limited due to suspicious activity.\n\nClick here NOW to restore your account: http://paypal-secure.ml/restore?id=xyz789\n\nYou must provide:\n- Email and password\n- Credit card details\n- Bank account information\n\nIf you don't act within 12 hours, your account will be PERMANENTLY CLOSED!\n\n$$$$ DON'T LOSE YOUR MONEY $$$$",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 7,
+    "type": "llm_generated_phishing",
+    "subject": "Verification Required for Recent Transaction",
+    "content": "Dear Customer,\n\nWe noticed an unusual transaction on your account and have temporarily placed a hold for your protection.\n\nTo review this transaction and restore full access to your account, please verify your identity by visiting:\nhttps://transaction-verify.com/secure\n\nThis is a standard security procedure that helps us protect your account from unauthorized access.\n\nThe verification process is simple and should take no more than a few minutes. Please complete it at your earliest convenience to avoid any disruption to your service.\n\nWe apologize for any inconvenience and appreciate your understanding.\n\nRegards,\nSecurity Operations Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 8,
+    "type": "normal",
+    "subject": "Newsletter: Tips for Online Safety",
+    "content": "Hello,\n\nHere are some important tips to keep your online accounts safe:\n\n1. Never share your password with anyone\n2. Enable two-factor authentication\n3. Be cautious of suspicious emails\n4. Always verify the sender's email address\n5. Don't click on links from unknown sources\n\nRemember: We will never ask for your password via email.\n\nStay safe online!\n\nYour Security Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 9,
+    "type": "hybrid_attack",
+    "subject": "Account Notification: Review Required",
+    "content": "Dear Account Holder,\n\nAs part of our ongoing commitment to account security, we periodically review accounts for compliance with our terms of service.\n\nYour account has been selected for review. To complete this process, please verify your information at:\nhttp://account-compliance-check.xyz/review?token=abc123def456\n\nThis review includes:\n- Identity verification\n- Contact information update\n- Security preferences confirmation\n\nPlease complete this review within 72 hours. Accounts that are not reviewed may experience service limitations.\n\nIf you have any questions, you can reach our support team through the official website.\n\nThank you for your cooperation.\n\nCompliance Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 10,
+    "type": "normal",
+    "subject": "Order Confirmation #12345",
+    "content": "Thank you for your order!\n\nOrder Number: 12345\nDate: December 17, 2024\n\nItems:\n- Product A (x1) - $29.99\n- Product B (x2) - $39.98\n\nTotal: $69.97\n\nYour order will be shipped within 2-3 business days. You will receive a tracking number once your order ships.\n\nYou can view your order status by logging into your account on our website.\n\nThank you for shopping with us!\n\nCustomer Service Team",
+    "is_phishing": false,
+    "label": 0
+  }
+]
