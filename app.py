@@ -10,6 +10,7 @@ import traceback
 
 from config import SECRET_KEY, DEBUG, UPLOAD_FOLDER, MAX_CONTENT_LENGTH
 from models.detector import get_detector
+from utils.helpers import convert_to_serializable
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = SECRET_KEY
@@ -46,6 +47,9 @@ def detect_email():
         
         # 执行检测
         result = detector.detect(email_content)
+        
+        # 确保结果可序列化
+        result = convert_to_serializable(result)
         
         return jsonify({
             'success': True,
@@ -211,4 +215,5 @@ if __name__ == '__main__':
     print(f"模型状态: {'已训练' if detector.model_trained else '未训练（使用规则检测）'}")
     print("=" * 60)
     
-    app.run(debug=DEBUG, host='0.0.0.0', port=5000)
+    # 禁用自动重载以避免与某些库冲突
+    app.run(debug=DEBUG, host='0.0.0.0', port=5000, use_reloader=False)

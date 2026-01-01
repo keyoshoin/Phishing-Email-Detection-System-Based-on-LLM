@@ -2,6 +2,7 @@
 辅助工具函数
 """
 import re
+import numpy as np
 from typing import List, Dict, Any
 from urllib.parse import urlparse
 import tldextract
@@ -110,6 +111,30 @@ def normalize_score(score: float, min_val: float = 0.0, max_val: float = 100.0) 
     return round(normalized, 2)
 
 
+def convert_to_serializable(obj):
+    """将NumPy对象和其他不可序列化对象转换为JSON可序列化的格式"""
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, (np.integer, np.int64, np.int32)):
+        return int(obj)
+    elif isinstance(obj, (np.floating, np.float64, np.float32)):
+        return float(obj)
+    elif isinstance(obj, (np.bool_, bool)):
+        return bool(obj)
+    elif isinstance(obj, dict):
+        return {key: convert_to_serializable(value) for key, value in obj.items()}
+    elif isinstance(obj, (list, tuple)):
+        return [convert_to_serializable(item) for item in obj]
+    elif isinstance(obj, (str, int, float, type(None))):
+        return obj
+    else:
+        # 对于其他类型，尝试转换为字符串
+        try:
+            return str(obj)
+        except:
+            return None
+
+
 def format_detection_result(
     risk_score: float,
     is_phishing: bool,
@@ -140,6 +165,6 @@ def format_detection_result(
         'risk_level': risk_level,
         'risk_color': risk_color,
         'classification': '钓鱼邮件' if is_phishing else '正常邮件',
-        'features': features,
+        'features': convert_to_serializable(features),
         'suggestions': suggestions or []
     }
