@@ -171,7 +171,10 @@ function displayResult(result) {
     
     // 显示特征详情
     displayFeatures(result.features);
-    
+
+    // 显示攻击类型分析
+    displayAttackAnalysis(result);
+
     // 滚动到结果区域
     document.getElementById('result-section').scrollIntoView({ behavior: 'smooth' });
 }
@@ -226,6 +229,100 @@ function addFeatureItem(container, label, value) {
     const div = document.createElement('div');
     div.className = 'feature-item';
     div.innerHTML = `<strong>${label}:</strong> ${value}`;
+    container.appendChild(div);
+}
+
+// 显示攻击类型分析
+function displayAttackAnalysis(result) {
+    // 攻击类型
+    const attackTypes = result.attack_types || [];
+    if (attackTypes.length > 0 && attackTypes[0] !== '正常邮件') {
+        const attackTypeCard = document.getElementById('attack-type-card');
+        const attackTypesDiv = document.getElementById('attack-types');
+        attackTypesDiv.innerHTML = '';
+
+        attackTypes.forEach(type => {
+            const badge = document.createElement('span');
+            badge.className = 'attack-badge';
+            badge.textContent = type;
+            attackTypesDiv.appendChild(badge);
+        });
+
+        attackTypeCard.style.display = 'block';
+    } else {
+        document.getElementById('attack-type-card').style.display = 'none';
+    }
+
+    // LLM生成检测
+    const llmAttack = result.llm_attack || {};
+    if (llmAttack.is_llm_generated) {
+        const llmCard = document.getElementById('llm-card');
+        const llmDetection = document.getElementById('llm-detection');
+        llmDetection.innerHTML = '';
+
+        addInfoItem(llmDetection, 'LLM生成可能性',
+            llmAttack.llm_score > 0.8 ? '高' : llmAttack.llm_score > 0.6 ? '中' : '低',
+            llmAttack.llm_score > 0.8 ? 'danger' : 'warning');
+        addInfoItem(llmDetection, 'LLM评分', (llmAttack.llm_score * 100).toFixed(1) + '%');
+        addInfoItem(llmDetection, '置信度', llmAttack.confidence.toFixed(1) + '%');
+
+        if (llmAttack.evidence && llmAttack.evidence.length > 0) {
+            const evidenceDiv = document.createElement('div');
+            evidenceDiv.innerHTML = '<strong>检测到的特征:</strong><ul>';
+            llmAttack.evidence.forEach(evidence => {
+                evidenceDiv.innerHTML += `<li>${evidence}</li>`;
+            });
+            evidenceDiv.innerHTML += '</ul>';
+            llmDetection.appendChild(evidenceDiv);
+        }
+
+        llmCard.style.display = 'block';
+    } else {
+        document.getElementById('llm-card').style.display = 'none';
+    }
+
+    // 混合攻击链检测
+    const hybridAttack = result.hybrid_attack || {};
+    if (hybridAttack.is_hybrid_attack) {
+        const hybridCard = document.getElementById('hybrid-card');
+        const hybridDetection = document.getElementById('hybrid-detection');
+        hybridDetection.innerHTML = '';
+
+        addInfoItem(hybridDetection, '混合攻击',
+            hybridAttack.is_hybrid_attack ? '是' : '否',
+            hybridAttack.is_hybrid_attack ? 'danger' : 'success');
+        addInfoItem(hybridDetection, '攻击链完整度',
+            hybridAttack.is_complete_chain ? '完整' : '不完整');
+        addInfoItem(hybridDetection, '检测阶段数', hybridAttack.stage_count);
+        addInfoItem(hybridDetection, '风险等级', hybridAttack.risk_level.toUpperCase());
+
+        if (hybridAttack.stages_detected && hybridAttack.stages_detected.length > 0) {
+            const stagesDiv = document.createElement('div');
+            stagesDiv.innerHTML = '<strong>检测到的阶段:</strong>';
+            hybridAttack.stages_detected.forEach(stage => {
+                const stageTag = document.createElement('span');
+                stageTag.className = 'stage-tag';
+                stageTag.textContent = stage;
+                stagesDiv.appendChild(stageTag);
+            });
+            hybridDetection.appendChild(stagesDiv);
+        }
+
+        hybridCard.style.display = 'block';
+    } else {
+        document.getElementById('hybrid-card').style.display = 'none';
+    }
+}
+
+// 添加信息项
+function addInfoItem(container, label, value, colorClass = '') {
+    const div = document.createElement('div');
+    div.className = 'info-item';
+    if (colorClass) {
+        div.innerHTML = `<span class="info-label">${label}:</span> <span class="info-value badge-${colorClass}">${value}</span>`;
+    } else {
+        div.innerHTML = `<span class="info-label">${label}:</span> <span class="info-value">${value}</span>`;
+    }
     container.appendChild(div);
 }
 

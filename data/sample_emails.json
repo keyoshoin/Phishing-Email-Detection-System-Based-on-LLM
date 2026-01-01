@@ -76,5 +76,835 @@
     "content": "Thank you for your order!\n\nOrder Number: 12345\nDate: December 17, 2024\n\nItems:\n- Product A (x1) - $29.99\n- Product B (x2) - $39.98\n\nTotal: $69.97\n\nYour order will be shipped within 2-3 business days. You will receive a tracking number once your order ships.\n\nYou can view your order status by logging into your account on our website.\n\nThank you for shopping with us!\n\nCustomer Service Team",
     "is_phishing": false,
     "label": 0
+  },
+  {
+    "id": 11,
+    "type": "hybrid_attack",
+    "subject": "Security Alert: System Upgrade",
+    "content": "Dear User,\n\nThis is an important security alert regarding your account. We are conducting a mandatory system upgrade to enhance security measures.\n\nStage 1: Account Verification\nPlease verify your account information by visiting: https://secure-upgrade.xyz/verify\n\nStage 2: Security Settings Update\nAfter verification, you will be prompted to update your security settings, including:\n- Password reset\n- Two-factor authentication setup\n- Recovery email confirmation\n\nStage 3: Profile Review\nFinally, review and confirm your profile information.\n\nAll stages must be completed within 7 days. Failure to complete the upgrade will result in account suspension.\n\nFor assistance, please contact our security team.\n\nThank you for your cooperation.\n\nSecurity Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 12,
+    "type": "llm_generated_phishing",
+    "subject": "Account Verification Notice",
+    "content": "Dear Customer,\n\nThank you for your continued trust in our services. We are writing to inform you of important security measures being implemented across our platform.\n\nAs part of these enhanced security protocols, we require all users to verify their account information. This verification helps us ensure that your account remains secure and accessible only to you.\n\nTo complete the verification process, please visit:\nhttps://account-verification-portal.com/secure\n\nWhat you'll need:\n- Your account username or email\n- A valid form of identification\n- Access to your registered email or phone\n\nThe verification process is designed to be straightforward and user-friendly. Should you encounter any difficulties, our support team is available 24/7 to assist you.\n\nWe appreciate your prompt attention to this matter and thank you for helping us maintain a secure environment for all users.\n\nBest regards,\nCustomer Security & Compliance Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 13,
+    "type": "normal",
+    "subject": "Thank You for Your Purchase",
+    "content": "Dear Customer,\n\nThank you for your recent purchase! We truly appreciate your business.\n\nOrder Details:\n- Order ID: #98765\n- Date: December 20, 2024\n- Total: $149.99\n\nYour order has been confirmed and is being prepared for shipment. You will receive a shipping confirmation email with tracking information as soon as your package is on its way.\n\nIf you have any questions or need to make changes to your order, please contact our customer service team:\n- Email: support@official-store.com\n- Phone: 1-800-555-0199\n\nThank you again for choosing us!\n\nWarm regards,\nCustomer Service Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 14,
+    "type": "normal",
+    "subject": "Weekly Newsletter: Tech Updates",
+    "content": "Hi there,\n\nHere are this week's top tech updates:\n\n📱 New Smartphone Releases\nSeveral major manufacturers announced new smartphones this week with improved cameras and battery life.\n\n💡 Productivity Tips\nLearn how to use keyboard shortcuts to work more efficiently. Check out our guide on our website.\n\n🔒 Cybersecurity Awareness\nStay safe online by using strong, unique passwords and enabling two-factor authentication on all your accounts.\n\n📚 Recommended Reading\n'The Future of AI' - A comprehensive look at how artificial intelligence is transforming industries.\n\nIf you found this newsletter helpful, please share it with your friends!\n\nBest,\nThe Editorial Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 15,
+    "type": "hybrid_attack",
+    "subject": "Multi-Step Security Verification Required",
+    "content": "Dear Account Holder,\n\nWe have identified unusual login attempts on your account. To protect your account, we have implemented a multi-step verification process.\n\n⚠️ Step 1: Identity Confirmation\nPlease confirm your identity at: http://identity-confirm.xyz/verify\n\n⚠️ Step 2: Device Registration\nAfter identity confirmation, you'll need to register your current device.\n\n⚠️ Step 3: Security Question Setup\nSet up new security questions for account recovery.\n\n⚠️ Step 4: Password Update\nUpdate your password to meet new security requirements.\n\nAll steps must be completed within 48 hours. Unverified accounts will be temporarily locked.\n\n⚠️ IMPORTANT:\n- Complete all steps in order\n- Use the same device throughout\n- Keep your verification codes secure\n\nIf you did not attempt to log in, please contact us immediately.\n\nSecurity Operations Center\nProtecting Your Digital Identity",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 16,
+    "type": "traditional_phishing",
+    "content": "SECURITY ALERT: Your account has been compromised!\n\nSomeone tried to access your account from a suspicious location (Moscow, Russia).\n\nLock your account NOW by clicking this link:\nhttps://account-secure-login.ml/lock\n\nYou need to provide:\n1. Current password\n2. New password\n3. Security question answers\n4. Mother's maiden name\n5. Last 4 digits of SSN\n\nDO THIS IMMEDIATELY or your account will be hacked!!!\n\nTime remaining: 30 minutes\n\nThis is not a joke. Your account is at risk!",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 17,
+    "type": "traditional_phishing",
+    "content": "Dear Amazon Customer,\n\nYour order #456789 is being held due to payment verification issues.\n\nTo release your order, please update your payment information:\nhttps://amazon-payment-update.xyz/update\n\nWe need:\n- Full credit card number\n- CVV code\n- Expiration date\n- Billing address\n\nYour order will be cancelled in 2 hours if not verified.\n\nThank you,\nAmazon Billing Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 18,
+    "type": "traditional_phishing",
+    "content": "You have been selected for a COVID-19 relief grant!\n\nThe government is sending $50,000 stimulus payments to qualified individuals.\n\nYou have been pre-approved! Click here to claim:\nhttp://covid-relief-grant-2024.com/claim\n\nWe need to verify:\n- Social Security Number\n- Bank account number\n- Routing number\n- Date of birth\n\nThis is a limited-time offer. Act now before funds run out!\n\nCOVID-19 Relief Program",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 19,
+    "type": "traditional_phishing",
+    "content": "FROM: IRS Internal Revenue Service\n\nWe are auditing your tax return for 2023.\n\nDiscrepancies found in your tax filing. You owe additional taxes.\n\nPayment due immediately: $4,567.89\n\nClick here to make payment:\nhttp://irs-tax-payment-urgent.com/pay\n\nIf not paid within 24 hours, legal action will be taken.\n\nDO NOT ignore this notice.\n\nInternal Revenue Service\nDepartment of Treasury",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 20,
+    "type": "traditional_phishing",
+    "content": "Netflix: Your subscription will expire today!\n\nWe were unable to process your payment.\n\nUpdate your billing information to continue watching:\nhttps://netflix-billing-update.tk/renew\n\nEnter your:\n- Credit card number\n- CVV\n- Expiration date\n- Billing address\n\nDon't lose access to your favorite shows!\n\nClick here now: http://billing.netflix-payment.com/renew\n\nNetflix Billing Support",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 21,
+    "type": "traditional_phishing",
+    "content": "Walmart: Your order #123456 is ready for pickup.\n\nHowever, we need additional verification before pickup.\n\nPlease verify your identity here:\nhttps://walmart-order-verify.ml/verify\n\nProvide:\n- Order confirmation number\n- Full name\n- Phone number\n- Last 4 digits of payment card\n\nYour order will be cancelled if not verified within 1 hour.\n\nWalmart Customer Service",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 22,
+    "type": "traditional_phishing",
+    "content": "Your Apple ID has been locked for security reasons.\n\nTo unlock your account, verify your information:\nhttps://appleid-verify-support.com/unlock\n\nWe require:\n- Apple ID email\n- Password\n- Trusted phone number\n- Recovery key\n\nFailure to verify within 48 hours will result in permanent account termination.\n\nApple Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 23,
+    "type": "traditional_phishing",
+    "content": "Facebook Security Alert!\n\nYour account has been reported for suspicious activity.\n\nProve you are the real owner by logging in:\nhttps://facebook-account-secure.ml/login\n\nUpdate your:\n- Email address\n- Phone number\n- Password\n- Security question\n\nYour account will be deleted in 24 hours if not verified.\n\nFacebook Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 24,
+    "type": "traditional_phishing",
+    "content": "Microsoft Office 365 Subscription Renewal\n\nYour subscription is expiring tomorrow.\n\nRenew now to avoid data loss:\nhttps://office365-renew-urgent.com/renew\n\nPayment required:\n- Credit card details\n- CVV code\n- Expiration date\n- Billing information\n\nAll your files and data will be deleted if not renewed.\n\nMicrosoft Billing Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 25,
+    "type": "traditional_phishing",
+    "content": "Chase Bank: Unusual activity detected on your account.\n\n$5,000+ transaction attempted from Nigeria.\n\nWas this you? If not, secure your account now:\nhttps://chase-secure-verify.ml/protect\n\nProvide to secure:\n- Account number\n- Username\n- Password\n- Security code\n- PIN\n\nYour account will be frozen in 1 hour.\n\nChase Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 26,
+    "type": "llm_generated_phishing",
+    "subject": "Important: Identity Verification Required",
+    "content": "Dear Customer,\n\nWe hope this message finds you well. We are writing to inform you about an important matter regarding your account security.\n\nRecently, our security systems detected activity that requires additional verification to ensure your account remains protected. This is a standard procedure we implement to safeguard your personal and financial information.\n\nPlease take a moment to verify your identity by visiting our secure verification portal:\nhttps://identity-verification-secure.com/confirm\n\nDuring the verification process, you may be asked to provide:\n- Your account username or email address\n- A valid form of government-issued identification\n- Contact information associated with your account\n\nThis verification should only take a few minutes of your time. We have designed the process to be as convenient and user-friendly as possible while maintaining the highest security standards.\n\nIf you have any questions or concerns, our dedicated support team is available to assist you 24 hours a day, 7 days a week.\n\nThank you for your understanding and cooperation in helping us maintain a secure environment for all our customers.\n\nSincerely,\nAccount Security Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 27,
+    "type": "llm_generated_phishing",
+    "subject": "Payment Update Needed for Your Subscription",
+    "content": "Dear Valued Customer,\n\nWe hope you're enjoying our service. This is a friendly reminder that we need to update your payment information to ensure uninterrupted service.\n\nOur records indicate that your current payment method is about to expire or needs to be renewed. To avoid any disruption to your subscription, please update your payment details at your earliest convenience.\n\nYou can securely update your information by visiting:\nhttps://payment-update-portal.com/renew\n\nInformation needed:\n- Credit card number\n- Cardholder name\n- Expiration date\n- CVV security code\n- Billing address\n\nRest assured that all information is transmitted using industry-standard encryption to protect your privacy and security.\n\nIf you believe you've received this message in error, or if you've already updated your payment information, please disregard this email.\n\nWe appreciate your prompt attention to this matter and thank you for your continued business.\n\nBest wishes,\nCustomer Support Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 28,
+    "type": "llm_generated_phishing",
+    "subject": "Action Required: Confirm Your Account Information",
+    "content": "Dear User,\n\nWe are committed to providing you with the best possible service and maintaining the security of your account. As part of our ongoing efforts to enhance our security measures, we periodically request that customers confirm their account information.\n\nYour account has been selected for this routine verification process. This helps us ensure that all account details are current and accurate, and that your account remains secure.\n\nPlease confirm your account information by visiting the following secure link:\nhttps://account-confirmation-secure.com/verify\n\nThe confirmation process is straightforward and should take just a few minutes. Please have the following information ready:\n- Your email address or username\n- Account password\n- Security question answer (if applicable)\n- Contact information on file\n\nThis verification is important to maintain the integrity and security of your account. We appreciate your cooperation in completing this process promptly.\n\nIf you have any questions or require assistance, please do not hesitate to contact our support team. We are here to help.\n\nThank you for your understanding and prompt attention to this matter.\n\nWarm regards,\nAccount Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 29,
+    "type": "llm_generated_phishing",
+    "subject": "Security Alert: Verify Your Login Information",
+    "content": "Dear Customer,\n\nWe are writing to bring an important security matter to your attention. Our monitoring systems have detected recent login activity on your account that may require additional verification.\n\nTo ensure that you maintain control of your account and to protect your personal information, we request that you verify your recent login attempts.\n\nPlease review your recent account activity by visiting:\nhttps://login-verification-secure.com/check\n\nIf you do not recognize the recent login attempts shown on your account activity page, please take immediate action to secure your account by changing your password and enabling two-factor authentication.\n\nIf you do recognize the login activity, simply confirm that the information is correct to help us maintain accurate security records.\n\nThis verification process is designed to protect your account from unauthorized access and maintain the security of your personal and financial information.\n\nShould you have any questions or concerns about this security alert, please contact our customer service team. We are available 24/7 to assist you with any security-related matters.\n\nThank you for helping us maintain a secure environment for all our customers.\n\nSincerely,\nSecurity Operations Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 30,
+    "type": "llm_generated_phishing",
+    "subject": "Important Notice: Account Access Verification",
+    "content": "Dear Valued Customer,\n\nWe hope this email finds you well. We are reaching out to you regarding an important matter concerning the security of your account.\n\nAs part of our regular security reviews, we have identified that your account requires verification to ensure continued access to our services. This is a standard security measure we implement to protect your account and personal information.\n\nTo verify your account and maintain uninterrupted access, please visit our secure verification page:\nhttps://access-verification-portal.com/confirm\n\nDuring the verification process, you may be asked to provide or confirm the following information:\n- Your email address or username\n- Account password\n- Phone number associated with your account\n- Security question answer\n\nThis verification is a one-time process designed to enhance the security of your account. Once completed, you will not need to verify again unless there are significant changes to your account.\n\nIf you have already completed this verification or believe you have received this email in error, please disregard this message.\n\nFor any questions or concerns, our dedicated support team is available to assist you around the clock.\n\nWe appreciate your understanding and cooperation in helping us maintain the highest security standards.\n\nBest regards,\nCustomer Security Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 31,
+    "type": "llm_generated_phishing",
+    "subject": "Your Account Requires Immediate Attention",
+    "content": "Dear Customer,\n\nThank you for your continued trust in our services. We are writing to inform you of an important security matter regarding your account that requires your immediate attention.\n\nOur automated security systems have flagged your account for review due to unusual activity patterns. To ensure the continued security and integrity of your account, we require you to verify your account information.\n\nPlease complete the verification process by visiting:\nhttps://account-review-secure.com/verify\n\nThe verification process includes:\n1. Confirming your personal information\n2. Verifying your contact details\n3. Updating security settings if needed\n4. Reviewing recent account activity\n\nThis comprehensive review helps us identify and prevent unauthorized access to your account while ensuring that you maintain full control over your personal information.\n\nWe understand that this may cause some inconvenience, and we sincerely apologize. However, these security measures are essential to protect your account from potential threats.\n\nPlease complete this verification within 48 hours to avoid any disruption to your account access.\n\nIf you have any questions or need assistance during the verification process, our support team is available 24/7 to help you.\n\nThank you for your prompt attention to this important security matter.\n\nBest wishes,\nAccount Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 32,
+    "type": "llm_generated_phishing",
+    "subject": "Update Your Security Information",
+    "content": "Dear Customer,\n\nWe are committed to maintaining the highest security standards for your account. As part of our ongoing security enhancements, we are requesting that you update your security information.\n\nRegular security updates help protect your account from unauthorized access and ensure that your personal and financial information remains secure. Your account has been selected for this routine security update.\n\nTo update your security information, please visit our secure portal:\nhttps://security-update-portal.com/update\n\nPlease have the following information ready:\n- Current password\n- New password (if you wish to change it)\n- Security question and answer\n- Recovery email address\n- Phone number for two-factor authentication\n\nUpdating your security information is a straightforward process that typically takes less than five minutes. All information is encrypted and securely stored.\n\nWe recommend updating your password regularly and enabling two-factor authentication for enhanced security.\n\nIf you have any questions about this security update or need assistance, please don't hesitate to contact our support team.\n\nThank you for helping us maintain a secure environment for all our customers.\n\nSincerely,\nSecurity Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 33,
+    "type": "llm_generated_phishing",
+    "subject": "Verification Notice: Confirm Your Identity",
+    "content": "Dear Customer,\n\nWe hope you're having a wonderful day. We are writing to request your assistance in verifying your identity for your account.\n\nAs part of our security protocols, we periodically verify account holder identities to ensure the continued security and integrity of our platform. This helps us prevent fraudulent activity and protects both you and other users.\n\nYour account has been selected for this routine identity verification. Please complete the process by visiting:\nhttps://identity-confirmation-secure.com/verify\n\nTo verify your identity, please be prepared to provide:\n- Your full legal name\n- Date of birth\n- Government-issued ID information\n- Current address\n- Phone number\n\nThis verification process is designed to be simple and convenient. The information you provide will be encrypted and used solely for verification purposes.\n\nPlease complete this verification within 72 hours to avoid any interruption to your account services.\n\nIf you have already completed this verification or believe you have received this message in error, please disregard this email.\n\nOur support team is available to answer any questions you may have about this process.\n\nThank you for your cooperation and for helping us maintain a secure platform for everyone.\n\nBest regards,\nCustomer Verification Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 34,
+    "type": "hybrid_attack",
+    "subject": "Comprehensive Security Review Required",
+    "content": "Dear Account Holder,\n\nThis is an official notification regarding a mandatory security review of your account.\n\nPhase 1: Initial Verification\nPlease verify your account details at: https://security-review-phase1.com/verify\nYou will need to provide:\n- Username\n- Password\n- Email address\n- Phone number\n\nPhase 2: Security Settings Update\nAfter completing Phase 1, update your security settings at: https://security-review-phase2.com/settings\nUpdate the following:\n- Create a new password\n- Set up two-factor authentication\n- Add a recovery email\n- Configure security questions\n\nPhase 3: Identity Confirmation\nComplete identity verification at: https://security-review-phase3.com/identity\nUpload or provide:\n- Government-issued ID\n- Proof of address\n- Selfie verification\n\nPhase 4: Final Confirmation\nConfirm all updates at: https://security-review-phase4.com/confirm\n\nAll phases must be completed within 14 days. Accounts not completing the full review will be temporarily suspended.\n\nImportant Notes:\n- Complete phases in order\n- Use the same device throughout\n- Keep verification codes secure\n- Do not share your credentials\n\nFor assistance, contact our security review team.\n\nSecurity Review Department\nProtecting Your Digital Assets",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 35,
+    "type": "hybrid_attack",
+    "subject": "Multi-Layer Account Protection Setup",
+    "content": "Dear User,\n\nTo enhance the security of your account, we are implementing a multi-layer protection system.\n\nLayer 1: Device Registration\nRegister your current device: https://multi-layer-security.com/register-device\nProvide:\n- Device type\n- Operating system\n- Device name\n\nLayer 2: Identity Verification\nVerify your identity: https://multi-layer-security.com/verify-identity\nYou need:\n- Government ID\n- Biometric data\n- Personal information\n\nLayer 3: Security Protocol Setup\nConfigure security protocols: https://multi-layer-security.com/setup-protocols\nSet up:\n- Encryption keys\n- Access codes\n- Security tokens\n\nLayer 4: Recovery System Activation\nActivate recovery systems: https://multi-layer-security.com/activate-recovery\nConfigure:\n- Recovery email\n- Backup phone\n- Trusted contacts\n\nAll layers must be activated within 10 days. Partial setup will not provide full protection.\n\nSecurity Enhancement Team\nSecuring Your Digital Future",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 36,
+    "type": "hybrid_attack",
+    "subject": "Account Migration Process",
+    "content": "Dear Customer,\n\nWe are migrating all accounts to a new, more secure platform.\n\nStage 1: Pre-Migration Verification\nVerify your account here: https://account-migration.com/pre-migrate\nRequired information:\n- Current username\n- Password\n- Account number\n- Security answers\n\nStage 2: Data Transfer Authorization\nAuthorize data transfer: https://account-migration.com/authorize-transfer\nReview and authorize:\n- Personal data\n- Financial information\n- Transaction history\n- Linked accounts\n\nStage 3: New Account Setup\nSet up your new account: https://account-migration.com/setup-new\nCreate:\n- New credentials\n- Security settings\n- Payment methods\n- Notification preferences\n\nStage 4: Final Migration Confirmation\nConfirm migration completion: https://account-migration.com/confirm\n\nMigration must be completed by December 31, 2024. Old accounts will be deactivated after this date.\n\nMigration Support Team\nEnsuring a Smooth Transition",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 37,
+    "type": "hybrid_attack",
+    "subject": "Enhanced Security Verification Protocol",
+    "content": "Dear Account Holder,\n\nWe are implementing enhanced security verification for all accounts.\n\nStep 1: Account Information Verification\nVerify your account: https://enhanced-security.com/verify-account\nProvide:\n- Account ID\n- Username\n- Password\n- Email address\n\nStep 2: Personal Information Confirmation\nConfirm personal details: https://enhanced-security.com/confirm-personal\nConfirm:\n- Full name\n- Date of birth\n- Address\n- Phone number\n- Social security number\n\nStep 3: Security Credentials Update\nUpdate security credentials: https://enhanced-security.com/update-security\nUpdate:\n- Password\n- Security questions\n- Two-factor authentication\n\nStep 4: Device and Location Verification\nVerify device and location: https://enhanced-security.com/verify-device\nVerify:\n- Current device\n- Location data\n- IP address\n- Network information\n\nStep 5: Final Security Audit\nComplete security audit: https://enhanced-security.com/complete-audit\n\nAll steps must be completed within 7 days. Incomplete verification will result in restricted account access.\n\nEnhanced Security Department\nAdvanced Protection for Your Account",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 38,
+    "type": "hybrid_attack",
+    "subject": "Comprehensive Account Validation Process",
+    "content": "Dear User,\n\nYour account requires comprehensive validation to ensure continued security.\n\nPhase A: Initial Validation\nStart validation here: https://account-validation.com/phase-a\nValidate:\n- Account ownership\n- Identity information\n- Contact details\n\nPhase B: Security Assessment\nComplete security assessment: https://account-validation.com/phase-b\nAssessment includes:\n- Password strength\n- Security settings\n- Login history\n- Account activity\n\nPhase C: Information Update\nUpdate your information: https://account-validation.com/phase-c\nUpdate:\n- Personal details\n- Security questions\n- Recovery options\n- Notification settings\n\nPhase D: Final Verification\nComplete final verification: https://account-validation.com/phase-d\n\nComplete all phases within 21 days. Accounts not validated will be subject to access restrictions.\n\nValidation Department\nEnsuring Account Integrity",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 39,
+    "type": "normal",
+    "subject": "Welcome to Our Service!",
+    "content": "Hello,\n\nWelcome and thank you for signing up for our service!\n\nWe're excited to have you on board. Here's what you can do next:\n\n1. Complete your profile\n2. Explore our features\n3. Connect with other users\n4. Check out our tutorials\n\nIf you have any questions, feel free to reach out to our support team.\n\nWe hope you enjoy using our service!\n\nBest regards,\nThe Welcome Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 40,
+    "type": "normal",
+    "subject": "Password Reset Request",
+    "content": "Hi,\n\nWe received a request to reset your password.\n\nIf you didn't make this request, you can safely ignore this email. Your account remains secure.\n\nIf you did request a password reset, click the link below to create a new password:\nhttps://www.official-service.com/reset-password?token=xyz123abc\n\nThis link will expire in 24 hours.\n\nFor security reasons, never share your password with anyone.\n\nBest,\nSecurity Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 41,
+    "type": "normal",
+    "subject": "Subscription Renewal Notice",
+    "content": "Dear Customer,\n\nThis is a friendly reminder that your subscription will renew automatically on January 15, 2025.\n\nSubscription Details:\n- Plan: Premium\n- Monthly fee: $9.99\n- Payment method: Visa ending in 1234\n\nIf you wish to modify or cancel your subscription, please visit your account settings before the renewal date.\n\nThank you for being a valued customer!\n\nBest regards,\nCustomer Support Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 42,
+    "type": "normal",
+    "subject": "Your Invoice is Ready",
+    "content": "Hello,\n\nYour invoice for the billing period December 1-31, 2024 is now available.\n\nInvoice Summary:\n- Invoice #INV-2024-12-001\n- Total Amount: $29.99\n- Due Date: January 15, 2025\n\nView your invoice and make payment at:\nhttps://www.official-service.com/invoices\n\nIf you have any questions about this invoice, please contact our billing department.\n\nThank you for your business!\n\nBilling Department",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 43,
+    "type": "normal",
+    "subject": "New Features Available",
+    "content": "Hi there!\n\nWe're excited to announce new features now available in your account:\n\n✨ Feature 1: Dark Mode\nToggle between light and dark themes\n\n✨ Feature 2: Enhanced Search\nFind what you need faster with improved search\n\n✨ Feature 3: Mobile App\nAccess your account on the go with our new mobile app\n\nTry out these new features today by logging into your account!\n\nWe hope you enjoy these improvements.\n\nBest,\nProduct Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 44,
+    "type": "normal",
+    "subject": "Scheduled Maintenance Notice",
+    "content": "Dear User,\n\nWe will be performing scheduled maintenance on our servers:\n\nDate: January 5, 2025\nTime: 2:00 AM - 4:00 AM EST\n\nDuring this time, you may experience temporary service interruptions. We apologize for any inconvenience this may cause.\n\nWhat to expect:\n- Brief service outages\n- Slow page loading times\n- Temporary inability to access certain features\n\nAll services will be restored by 4:00 AM EST.\n\nThank you for your patience and understanding!\n\nOperations Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 45,
+    "type": "normal",
+    "subject": "Feedback Request",
+    "content": "Hello,\n\nWe'd love to hear from you! Your feedback helps us improve our service.\n\nPlease take a few minutes to complete our short survey:\nhttps://www.official-service.com/survey\n\nYour responses will remain confidential and will be used solely for improving our services.\n\nAs a thank you, you'll receive a 10% discount on your next subscription payment.\n\nThank you for your time and valuable feedback!\n\nBest regards,\nCustomer Experience Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 46,
+    "type": "normal",
+    "subject": "Shipping Update: Order #54321",
+    "content": "Dear Customer,\n\nGreat news! Your order has shipped!\n\nOrder Details:\n- Order Number: #54321\n- Shipping Method: Standard (5-7 business days)\n- Tracking Number: 1Z9999999999999999\n\nYour package is on its way to:\n123 Main Street\nCity, State 12345\n\nTrack your package at: https://www.official-service.com/track/1Z9999999999999999\n\nThank you for shopping with us!\n\nShipping Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 47,
+    "type": "normal",
+    "subject": "Account Settings Updated",
+    "content": "Hi,\n\nYour account settings have been successfully updated.\n\nChanges made:\n- Email address: newemail@example.com\n- Notification preferences: Email only\n- Language: English\n\nIf you didn't make these changes, please contact our support team immediately:\nhttps://www.official-service.com/support\n\nFor security reasons, never share your login credentials with anyone.\n\nBest,\nAccount Security Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 48,
+    "type": "normal",
+    "subject": "Two-Factor Authentication Enabled",
+    "content": "Hello,\n\nTwo-factor authentication has been enabled on your account.\n\nWhat this means:\n- An additional layer of security has been added\n- You'll be asked for a verification code when logging in from new devices\n- Your account is now more secure\n\nSetup Details:\n- Method: SMS verification\n- Phone: +1 (***) ***-1234\n- Enabled on: January 1, 2025\n\nIf you didn't enable this feature, please contact our security team immediately.\n\nStay safe online!\n\nSecurity Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 49,
+    "type": "normal",
+    "subject": "Your Account Balance",
+    "content": "Dear Customer,\n\nYour current account balance is available.\n\nBalance Summary:\n- Available Balance: $1,234.56\n- Pending Transactions: $45.00\n- Total Balance: $1,189.56\n\nView detailed transaction history at:\nhttps://www.official-service.com/account/balance\n\nIf you notice any unauthorized transactions, please report them immediately.\n\nThank you for banking with us!\n\nCustomer Service",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 50,
+    "type": "normal",
+    "subject": "Community Guidelines Update",
+    "content": "Hi Everyone,\n\nWe've updated our community guidelines to ensure a safe and welcoming environment for all users.\n\nKey Changes:\n1. Updated harassment policy\n2. New content moderation rules\n3. Enhanced privacy protections\n4. Clarified reporting procedures\n\nPlease review the updated guidelines at:\nhttps://www.official-service.com/guidelines\n\nBy continuing to use our service, you agree to these updated guidelines.\n\nThank you for helping us build a better community!\n\nCommunity Management Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 51,
+    "type": "traditional_phishing",
+    "content": "ATTENTION: Your email account has been blocked!\n\nWe detected suspicious activity and temporarily blocked your account.\n\nUnblock your account here:\nhttps://email-unblock-service.com/unblock\n\nProvide to unblock:\n- Email address\n- Password\n- Recovery phone\n- Backup email\n\nYour account will be permanently deleted in 3 hours!\n\nEmail Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 52,
+    "type": "traditional_phishing",
+    "content": "LinkedIn: Your profile is incomplete!\n\nComplete your profile to get noticed by recruiters.\n\nAdd your information here:\nhttps://linkedin-profile-complete.com/update\n\nWe need:\n- Full resume\n- Educational background\n- Work history\n- Personal phone number\n- Home address\n- Bank account for direct deposit\n\nDo this NOW to get better job offers!\n\nLinkedIn Career Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 53,
+    "type": "traditional_phishing",
+    "content": "Twitter: Your account has been suspended!\n\nYour account violated our terms of service.\n\nAppeal and reactivate your account:\nhttps://twitter-account-appeal.ml/appeal\n\nProvide for appeal:\n- Username\n- Password\n- Phone number\n- Email address\n- Government ID\n\nAppeal within 24 hours or account will be permanently deleted!\n\nTwitter Support",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 54,
+    "type": "traditional_phishing",
+    "content": "Instagram: Your account will be deactivated!\n\nWe detected unusual login attempts from China.\n\nSecure your account immediately:\nhttps://instagram-secure-login.ml/protect\n\nProvide to secure:\n- Username\n- Password\n- Email\n- Phone number\n- Birth date\n\nYour account will be deleted in 1 hour!\n\nInstagram Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 55,
+    "type": "traditional_phishing",
+    "content": "Gmail: Your storage is almost full!\n\nYou have used 98% of your 15GB storage.\n\nYour emails will be deleted in 24 hours!\n\nUpgrade your storage NOW:\nhttps://gmail-storage-upgrade.ml/upgrade\n\nPayment needed:\n- Credit card number\n- CVV\n- Expiration date\n- Billing address\n\nDon't lose your important emails!\n\nGoogle Storage Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 56,
+    "type": "traditional_phishing",
+    "content": "eBay: Your winning bid needs payment confirmation!\n\nYou won an auction but we need to verify your payment.\n\nConfirm payment here:\nhttps://ebay-payment-confirm.ml/verify\n\nProvide:\n- Credit card number\n- CVV\n- Expiration date\n- Billing address\n- PayPal email\n- PayPal password\n\nConfirm within 2 hours or item will be relisted!\n\neBay Payment Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 57,
+    "type": "traditional_phishing",
+    "content": "Uber: Your account has been compromised!\n\nSomeone used your account for rides in Brazil.\n\nProtect your account now:\nhttps://uber-account-secure.ml/protect\n\nSecure with:\n- Email\n- Password\n- Phone number\n- Credit card\n- Driver's license\n\nYour payment methods will be removed in 30 minutes!\n\nUber Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 58,
+    "type": "traditional_phishing",
+    "content": "Airbnb: Your reservation needs confirmation!\n\nYour reservation requires additional verification.\n\nConfirm your reservation:\nhttps://airbnb-reserve-confirm.ml/confirm\n\nProvide:\n- Full name\n- Phone number\n- Address\n- Government ID\n- Credit card\n- Booking confirmation number\n\nConfirm in 1 hour or reservation will be cancelled!\n\nAirbnb Support Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 59,
+    "type": "traditional_phishing",
+    "content": "PayPal: Unusual activity detected!\n\n$3,000 transferred to unknown account.\n\nVerify your account now:\nhttps://paypal-verify-urgent.ml/verify\n\nProvide:\n- Email\n- Password\n- Bank account\n- Routing number\n- SSN\n- Address\n\nYour account will be frozen in 1 hour!\n\nPayPal Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 60,
+    "type": "traditional_phishing",
+    "content": "Dropbox: Your account will be deleted!\n\nYou have violated our terms of service.\n\nAppeal and save your data:\nhttps://dropbox-account-appeal.ml/appeal\n\nProvide:\n- Email\n- Password\n- Phone number\n- Credit card\n- Backup email\n\nAppeal within 12 hours or all files will be deleted!\n\nDropbox Support",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 61,
+    "type": "llm_generated_phishing",
+    "subject": "Urgent: Account Information Update Required",
+    "content": "Dear Customer,\n\nWe hope this email finds you well. We are writing to inform you about an important update required for your account.\n\nOur systems have identified that certain information on your account needs to be updated to ensure continued access and security. This is a routine process we conduct to maintain the accuracy and security of our user accounts.\n\nPlease take a moment to update your account information by visiting our secure portal:\nhttps://account-update-secure.com/update\n\nDuring the update process, you may be asked to provide or verify:\n- Your account username or email address\n- Current password\n- Contact information\n- Security question answers\n\nThis update process is designed to be quick and straightforward, typically taking only a few minutes to complete. All information is transmitted using industry-standard encryption to protect your privacy.\n\nIf you have any questions or concerns about this update request, please don't hesitate to contact our support team. We are available 24/7 to assist you.\n\nThank you for your prompt attention to this matter and for helping us maintain a secure environment for all our customers.\n\nBest regards,\nAccount Management Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 62,
+    "type": "llm_generated_phishing",
+    "subject": "Important: Payment Method Verification",
+    "content": "Dear Valued Customer,\n\nThank you for your continued patronage. We are writing to request your assistance in verifying your payment method on file.\n\nAs part of our regular security measures, we periodically verify payment methods to ensure they are current and valid. This helps prevent service interruptions and ensures that your account remains in good standing.\n\nPlease verify your payment information by visiting:\nhttps://payment-verify-secure.com/confirm\n\nTo complete the verification, please have ready:\n- Credit or debit card number\n- Cardholder name\n- Expiration date\n- CVV security code\n- Billing address\n\nThis verification process is secure and all information is encrypted. We take data privacy seriously and only use this information for verification purposes.\n\nIf you have already verified your payment information or believe you have received this email in error, please disregard this message.\n\nShould you have any questions or require assistance, our customer service team is standing by to help you.\n\nWe appreciate your cooperation and thank you for choosing our service.\n\nSincerely,\nBilling and Payments Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 63,
+    "type": "llm_generated_phishing",
+    "subject": "Security Alert: Account Activity Review",
+    "content": "Dear Customer,\n\nWe hope you're having a pleasant day. We are contacting you regarding a recent security review of your account.\n\nOur automated security monitoring systems have flagged certain activities on your account that require additional review. This is a standard procedure we implement to protect all our users from potential security threats.\n\nPlease review your recent account activity by visiting:\nhttps://activity-review-secure.com/review\n\nDuring this review, you may be asked to:\n1. Confirm your recent login locations\n2. Verify recent transactions\n3. Update your security settings\n4. Confirm your contact information\n\nThis review process helps ensure that all activity on your account is authorized and helps us detect and prevent unauthorized access.\n\nIf you notice any activity you don't recognize, please report it immediately through our secure reporting system.\n\nFor any questions about this security review, please contact our security team. We are available around the clock to assist you.\n\nThank you for your cooperation in helping us maintain a secure platform.\n\nBest wishes,\nSecurity Operations Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 64,
+    "type": "llm_generated_phishing",
+    "subject": "Important Notice: Account Access Verification",
+    "content": "Dear User,\n\nWe are writing to bring an important matter to your attention regarding access to your account.\n\nAs part of our enhanced security protocols, we periodically verify that account holders have appropriate access to their accounts. This verification helps us ensure that your account remains secure and that only authorized individuals can access your information.\n\nYour account has been selected for this routine verification. Please complete the process by visiting our secure verification page:\nhttps://access-verify-secure.com/verify\n\nThe verification process may include:\n- Confirming your identity\n- Verifying your login credentials\n- Updating your contact information\n- Reviewing your security settings\n\nThis verification is important to maintain the security and integrity of your account. We appreciate your prompt attention to this matter.\n\nIf you have any questions or need assistance during the verification process, our dedicated support team is available to help you every step of the way.\n\nThank you for your understanding and cooperation.\n\nSincerely,\nAccount Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 65,
+    "type": "llm_generated_phishing",
+    "subject": "Your Account Requires Update",
+    "content": "Dear Customer,\n\nThank you for being a valued customer. We are writing to inform you that your account requires an update to ensure continued access to all our services.\n\nOur records indicate that certain account information needs to be refreshed to meet our current security standards. This is a routine update we perform on all accounts to maintain optimal security and service quality.\n\nPlease update your account information by visiting:\nhttps://account-update-now.com/update\n\nDuring the update process, you may be asked to provide:\n- Your current login credentials\n- Updated contact information\n- Security question answers\n- Two-factor authentication preferences\n\nThe update process is designed to be user-friendly and can be completed in just a few minutes. All information is securely transmitted using the latest encryption technology.\n\nWe understand that updates can sometimes be inconvenient, and we sincerely apologize for any disruption this may cause. However, these updates are essential to maintaining the security and reliability of our service.\n\nIf you have any questions or need assistance, please don't hesitate to reach out to our support team.\n\nThank you for your prompt attention to this important matter.\n\nBest regards,\nCustomer Experience Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 66,
+    "type": "llm_generated_phishing",
+    "subject": "Verification Required: Confirm Your Account",
+    "content": "Dear Valued Customer,\n\nWe hope this message finds you well. We are requesting your assistance in confirming your account information.\n\nAs part of our ongoing commitment to security, we periodically request that customers confirm their account details. This helps us ensure that your account remains secure and that all information is accurate and up-to-date.\n\nPlease confirm your account by visiting our secure confirmation page:\nhttps://confirm-account-secure.com/confirm\n\nTo complete the confirmation, you will need:\n- Your username or email address\n- Your password\n- Your contact information\n- Security question answers (if applicable)\n\nThis confirmation process is straightforward and typically takes less than five minutes to complete. All information is encrypted and securely stored.\n\nIf you have already confirmed your account recently or believe you have received this message in error, please disregard this email.\n\nOur support team is available 24/7 to answer any questions you may have about this confirmation process.\n\nThank you for helping us maintain a secure environment for all our customers.\n\nSincerely,\nCustomer Security Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 67,
+    "type": "llm_generated_phishing",
+    "subject": "Important: Security Credentials Update",
+    "content": "Dear Customer,\n\nWe are committed to maintaining the highest standards of security for your account. As part of our security protocols, we are requesting that you update your security credentials.\n\nRegular updates to security credentials help protect your account from unauthorized access and ensure that your personal and financial information remains secure. Your account has been selected for this routine update.\n\nPlease update your security credentials by visiting:\nhttps://security-credentials-update.com/update\n\nYou will need to update:\n- Your password\n- Security questions and answers\n- Two-factor authentication settings\n- Recovery email and phone number\n\nThe update process is designed to be simple and efficient. Please choose a strong, unique password that you don't use for other accounts.\n\nFor your security, we recommend:\n- Using a password with at least 12 characters\n- Including a mix of letters, numbers, and special characters\n- Not sharing your password with anyone\n- Changing your password regularly\n\nIf you have any questions about this security update or need assistance, please contact our support team.\n\nThank you for helping us maintain a secure platform for everyone.\n\nBest regards,\nSecurity Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 68,
+    "type": "llm_generated_phishing",
+    "subject": "Account Verification Notice",
+    "content": "Dear Customer,\n\nWe hope you're having a wonderful day. We are writing to inform you of an important verification required for your account.\n\nOur systems have indicated that your account information needs verification to ensure continued service and security. This is a standard verification process we conduct periodically to maintain account integrity.\n\nPlease complete the verification by visiting:\nhttps://account-verify-now.com/verify\n\nDuring verification, you may be asked to:\n- Confirm your identity\n- Verify your contact information\n- Update security settings\n- Review account preferences\n\nThis verification process is designed to be convenient and user-friendly. All information is encrypted and securely transmitted.\n\nPlease complete this verification within 48 hours to avoid any interruption to your account services.\n\nIf you have any questions about this verification or need assistance, our support team is available to help you.\n\nThank you for your cooperation and prompt attention to this matter.\n\nBest wishes,\nAccount Verification Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 69,
+    "type": "hybrid_attack",
+    "subject": "Complete Account Security Audit Required",
+    "content": "Dear Account Holder,\n\nThis is an official notification requiring a complete security audit of your account.\n\nAudit Stage 1: Identity Verification\nBegin identity verification: https://security-audit-stage1.com/verify\nRequired:\n- Government ID\n- Personal information\n- Contact details\n\nAudit Stage 2: Account Access Verification\nVerify account access: https://security-audit-stage2.com/access\nVerify:\n- Username\n- Password\n- Email\n- Phone number\n\nAudit Stage 3: Financial Information Review\nReview financial info: https://security-audit-stage3.com/financial\nReview:\n- Bank account\n- Credit card\n- Transaction history\n- Payment methods\n\nAudit Stage 4: Security Settings Update\nUpdate security settings: https://security-audit-stage4.com/security\nUpdate:\n- Password\n- Security questions\n- Two-factor authentication\n- Recovery options\n\nAudit Stage 5: Final Audit Confirmation\nComplete audit: https://security-audit-stage5.com/complete\n\nAll audit stages must be completed within 10 days. Accounts not completing the full audit will be subject to immediate suspension.\n\nImportant Security Notes:\n- Complete stages in sequential order\n- Use the same device throughout\n- Keep all verification codes secure\n- Do not share audit credentials\n\nSecurity Audit Department\nComprehensive Account Protection",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 70,
+    "type": "hybrid_attack",
+    "subject": "Multi-Phase Account Recovery Process",
+    "content": "Dear User,\n\nWe have detected potential unauthorized access to your account and have initiated a multi-phase recovery process.\n\nRecovery Phase 1: Account Lock Verification\nVerify account lock: https://account-recovery-phase1.com/lock-verify\nProvide:\n- Account ID\n- Username\n- Email address\n- Phone number\n\nRecovery Phase 2: Identity Authentication\nAuthenticate identity: https://account-recovery-phase2.com/auth\nAuthenticate with:\n- Government ID\n- Biometric data\n- Security questions\n\nRecovery Phase 3: Security Restoration\nRestore security settings: https://account-recovery-phase3.com/restore\nRestore:\n- New password\n- Two-factor authentication\n- Security tokens\n- Encryption keys\n\nRecovery Phase 4: Access Validation\nValidate access: https://account-recovery-phase4.com/validate\nValidate:\n- Device registration\n- Location verification\n- IP confirmation\n- Network check\n\nRecovery Phase 5: Account Reactivation\nReactivate account: https://account-recovery-phase5.com/reactivate\n\nComplete all phases within 7 days. Incomplete recovery will result in permanent account suspension.\n\nRecovery Team\nRestoring Your Account Security",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 71,
+    "type": "hybrid_attack",
+    "subject": "Enhanced Account Protection Setup",
+    "content": "Dear Account Holder,\n\nTo enhance the security of your account, we require you to complete a multi-step protection setup.\n\nProtection Step 1: Device Authorization\nAuthorize your device: https://enhanced-protection.com/authorize-device\nAuthorize:\n- Device information\n- Operating system\n- Browser details\n- Location data\n\nProtection Step 2: Biometric Verification\nComplete biometric verification: https://enhanced-protection.com/biometric\nProvide:\n- Facial recognition\n- Fingerprint scan\n- Voice verification\n\nProtection Step 3: Multi-Factor Authentication\nSet up multi-factor auth: https://enhanced-protection.com/mfa\nSet up:\n- SMS verification\n- Authenticator app\n- Hardware token\n- Biometric factor\n\nProtection Step 4: Security Protocol Configuration\nConfigure security protocols: https://enhanced-protection.com/protocols\nConfigure:\n- Encryption settings\n- Access controls\n- Session timeouts\n- Login restrictions\n\nProtection Step 5: Final Protection Activation\nActivate protection: https://enhanced-protection.com/activate\n\nComplete all steps within 14 days. Partial setup will not provide full protection.\n\nEnhanced Protection Team\nAdvanced Security Solutions",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 72,
+    "type": "hybrid_attack",
+    "subject": "Complete Account Verification Protocol",
+    "content": "Dear Customer,\n\nYour account requires completion of a comprehensive verification protocol.\n\nVerification Part 1: Personal Information Verification\nVerify personal info: https://verify-protocol-part1.com/personal\nVerify:\n- Full name\n- Date of birth\n- Address\n- Phone number\n- Email address\n\nVerification Part 2: Identity Document Submission\nSubmit ID documents: https://verify-protocol-part2.com/documents\nSubmit:\n- Government ID\n- Proof of address\n- Passport or driver's license\n- Selfie verification\n\nVerification Part 3: Account Credentials Verification\nVerify credentials: https://verify-protocol-part3.com/credentials\nVerify:\n- Username\n- Password\n- Security questions\n- Recovery information\n\nVerification Part 4: Financial Information Verification\nVerify financial info: https://verify-protocol-part4.com/financial\nVerify:\n- Bank account\n- Credit card details\n- Payment methods\n- Transaction history\n\nVerification Part 5: Final Protocol Completion\nComplete protocol: https://verify-protocol-part5.com/complete\n\nComplete all verification parts within 21 days. Incomplete protocols will result in restricted account access.\n\nVerification Protocol Team\nEnsuring Complete Account Security",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 73,
+    "type": "normal",
+    "subject": "Your Subscription Has Been Successfully Renewed",
+    "content": "Dear Customer,\n\nGreat news! Your subscription has been successfully renewed.\n\nSubscription Details:\n- Plan: Premium\n- Renewal Date: January 1, 2025\n- Next Billing Date: February 1, 2025\n- Amount: $19.99\nPayment Method: Visa ending in 4567\n\nThank you for your continued subscription. We look forward to providing you with excellent service.\n\nBest regards,\nBilling Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 74,
+    "type": "normal",
+    "subject": "Password Successfully Changed",
+    "content": "Hi,\n\nYour password has been successfully changed.\n\nChange Details:\n- Date: January 1, 2025\n- Time: 10:30 AM EST\n- Device: Chrome on Windows\n- Location: New York, USA\n\nIf you didn't make this change, please contact our security team immediately:\nhttps://www.official-service.com/security\n\nFor your security, never share your password with anyone.\n\nBest,\nSecurity Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 75,
+    "type": "normal",
+    "subject": "New Login Detected",
+    "content": "Hello,\n\nWe detected a new login to your account.\n\nLogin Details:\n- Date: January 1, 2025\n- Time: 2:15 PM EST\n- Device: iPhone 15\n- Location: Los Angeles, CA\n- IP: 192.168.x.x\n\nIf this was you, no action is needed.\n\nIf you don't recognize this login, please secure your account immediately:\nhttps://www.official-service.com/secure-account\n\nStay safe!\n\nSecurity Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 76,
+    "type": "normal",
+    "subject": "Your Order Has Been Delivered",
+    "content": "Dear Customer,\n\nYour order has been delivered!\n\nOrder Details:\n- Order Number: #67890\n- Delivery Date: January 1, 2025\n- Delivery Address: 456 Oak Street, City, ST 12345\n- Signature: John Doe\n\nWe hope you enjoy your purchase! If you have any questions about your order, please visit our order tracking page:\nhttps://www.official-service.com/orders/67890\n\nThank you for shopping with us!\n\nDelivery Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 77,
+    "type": "normal",
+    "subject": "Your Refund Has Been Processed",
+    "content": "Hello,\n\nYour refund has been successfully processed.\n\nRefund Details:\n- Refund ID: REF-2025-001\n- Amount: $49.99\n- Reason: Product return\n- Processing Date: January 1, 2025\n- Expected Credit Date: January 3-7, 2025\n- Credit Method: Visa ending in 7890\n\nThe refund will appear on your credit card statement within 5-7 business days.\n\nThank you for your patience. If you have any questions, please contact our customer service team.\n\nBest regards,\nRefund Department",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 78,
+    "type": "normal",
+    "subject": "Profile Successfully Updated",
+    "content": "Hi,\n\nYour profile has been successfully updated.\n\nUpdated Information:\n- Name: John Smith\n- Email: john.smith@example.com\n- Phone: +1 (555) 123-4567\n- Address: 123 Maple Street, City, ST 12345\n- Updated on: January 1, 2025\n\nIf you didn't make these changes, please contact our support team immediately.\n\nBest regards,\nAccount Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 79,
+    "type": "normal",
+    "subject": "Your Account Statement is Available",
+    "content": "Dear Customer,\n\nYour monthly account statement is now available for viewing.\n\nStatement Details:\n- Statement Period: December 2024\n- Statement Date: January 1, 2025\n- Total Balance: $2,345.67\n- Minimum Payment: $47.00\n- Due Date: January 25, 2025\n\nView your statement by logging into your account:\nhttps://www.official-service.com/statement\n\nIf you have any questions about your statement, please contact our customer service team.\n\nThank you for your business!\n\nBilling Department",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 80,
+    "type": "normal",
+    "subject": "Special Offer: 20% Off Your Next Order!",
+    "content": "Hi there!\n\nWe have a special offer just for you!\n\nGet 20% off your next order with code:\n\nSAVE20NOW\n\nOffer Details:\n- Discount: 20%\n- Valid Until: January 31, 2025\n- Minimum Purchase: $50.00\n- One-time use only\n\nShop now: https://www.official-service.com/shop\n\nThank you for being a valued customer!\n\nPromotions Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 81,
+    "type": "normal",
+    "subject": "Support Ticket #12345 Updated",
+    "content": "Hello,\n\nYour support ticket has been updated.\n\nTicket Details:\n- Ticket ID: #12345\n- Subject: Login issue\n- Status: Resolved\n- Last Updated: January 1, 2025\n\nResolution Summary:\nWe have resolved your login issue. Please try logging in again. If you continue to experience problems, please reply to this ticket.\n\nView your ticket: https://www.official-service.com/tickets/12345\n\nThank you for contacting us!\n\nSupport Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 82,
+    "type": "normal",
+    "subject": "Appointment Confirmation",
+    "content": "Dear Customer,\n\nYour appointment has been confirmed.\n\nAppointment Details:\n- Date: January 15, 2025\n- Time: 3:00 PM EST\n- Location: 789 Pine Street, City, ST 12345\n- Duration: 1 hour\n- Service: Account Consultation\n\nPlease arrive 10 minutes early. If you need to reschedule, please contact us at least 24 hours in advance.\n\nWe look forward to seeing you!\n\nAppointments Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 83,
+    "type": "normal",
+    "subject": "Your Feedback is Important to Us",
+    "content": "Hello,\n\nThank you for your recent feedback. We truly appreciate your input!\n\nYour feedback has been reviewed and we have taken your suggestions into consideration. We are constantly working to improve our service, and your feedback helps us do that.\n\nIf you have any additional feedback or suggestions, please don't hesitate to share them with us.\n\nThank you for being a valued customer!\n\nBest regards,\nCustomer Experience Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 84,
+    "type": "normal",
+    "subject": "Your Points Balance",
+    "content": "Hi,\n\nYour current rewards points balance is now available.\n\nPoints Summary:\n- Current Balance: 2,345 points\n- Points Value: $23.45\n- Points Expiring: 100 points (January 31, 2025)\n\nRedeem your points for:\n- Discounts on future purchases\n- Free products\n- Exclusive offers\n- Gift cards\n\nRedeem points: https://www.official-service.com/redeem\n\nThank you for your loyalty!\n\nRewards Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 85,
+    "type": "normal",
+    "subject": "Product Review Request",
+    "content": "Dear Customer,\n\nHow was your recent purchase?\n\nWe'd love to hear your thoughts! Please leave a product review for:\n\nProduct: Premium Widget\nOrder: #56789\nPurchase Date: December 15, 2024\n\nWrite your review: https://www.official-service.com/review/56789\n\nYour review helps other customers make informed decisions and helps us improve our products.\n\nThank you for your time!\n\nProduct Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 86,
+    "type": "normal",
+    "subject": "Account Anniversary: 1 Year with Us!",
+    "content": "Happy Anniversary!\n\nCongratulations! You've been with us for 1 year!\n\nAccount Summary:\n- Member Since: January 1, 2024\n- Total Orders: 23\n- Total Spent: $1,234.56\n- Reward Points: 2,345\n\nTo celebrate, we're giving you a special bonus:\n🎁 500 bonus points added to your account!\n\nThank you for your continued loyalty. We look forward to serving you for many more years!\n\nBest regards,\nThe Team at Official Service",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 87,
+    "type": "normal",
+    "subject": "New Feature: Dark Mode Now Available!",
+    "content": "Hi there!\n\nGreat news! Dark mode is now available for your account!\n\nWhat's new:\n- Beautiful dark theme\n- Easy on the eyes\n- Battery saving on OLED screens\n- Toggle between light and dark modes\n\nEnable dark mode:\n1. Go to Settings\n2. Click on Appearance\n3. Select Dark Mode\n\nTry it out today and let us know what you think!\n\nBest,\nProduct Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 88,
+    "type": "normal",
+    "subject": "Your Wishlist is Waiting!",
+    "content": "Hello,\n\nYou have 5 items in your wishlist!\n\nWishlist Items:\n1. Premium Product A - $99.99\n2. Deluxe Product B - $149.99\n3. Standard Product C - $49.99\n4. Essential Product D - $29.99\n5. Special Product E - $79.99\n\nSome items are on sale now!\n\nView your wishlist: https://www.official-service.com/wishlist\n\nDon't miss out on your favorite items!\n\nBest regards,\nThe Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 89,
+    "type": "normal",
+    "subject": "Event Invitation: Webinar on Security",
+    "content": "Dear Customer,\n\nYou're invited to our upcoming webinar!\n\nEvent Details:\n- Title: Online Security Best Practices\n- Date: January 15, 2025\n- Time: 2:00 PM EST\n- Duration: 1 hour\n- Platform: Zoom\n\nWhat You'll Learn:\n- How to create strong passwords\n- Two-factor authentication setup\n- Recognizing phishing attempts\n- Protecting your personal information\n\nRegister now: https://www.official-service.com/webinar/security\n\nWe hope to see you there!\n\nEvents Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 90,
+    "type": "normal",
+    "subject": "Service Upgrade Available",
+    "content": "Hi there!\n\nA service upgrade is now available for your account!\n\nCurrent Plan: Basic\nAvailable Upgrade: Premium\n\nPremium Benefits:\n✓ Unlimited access\n✓ Priority support\n✓ Exclusive features\n✓ No ads\n✓ Early access to new features\n\nUpgrade cost: Additional $10/month\n\nUpgrade now: https://www.official-service.com/upgrade\n\nQuestions? Contact our support team.\n\nBest regards,\nCustomer Service Team",
+    "is_phishing": false,
+    "label": 0
+  },
+  {
+    "id": 91,
+    "type": "traditional_phishing",
+    "content": "Your Microsoft 365 account is suspended!\n\nSuspension reason: Payment verification failed\n\nReactivate your account immediately:\nhttps://microsoft-365-reactivate.ml/reactivate\n\nProvide to reactivate:\n- Email address\n- Password\n- Phone number\n- Credit card\n- CVV\n- Billing address\n\nYour account and all data will be permanently deleted in 24 hours!\n\nMicrosoft 365 Support",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 92,
+    "type": "traditional_phishing",
+    "content": "Adobe: Your subscription is expiring!\n\nYour Creative Cloud subscription expires tomorrow.\n\nRenew now to avoid losing access to your creative tools:\nhttps://adobe-renew-urgent.com/renew\n\nPayment required:\n- Credit card number\n- CVV\n- Expiration date\n- Billing address\n\nAll your files and work will be deleted if not renewed!\n\nAdobe Billing Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 93,
+    "type": "traditional_phishing",
+    "content": "Slack: Your workspace needs verification!\n\nWe need to verify your ownership of the workspace.\n\nVerify workspace ownership:\nhttps://slack-workspace-verify.ml/verify\n\nProvide:\n- Workspace URL\n- Admin email\n- Admin password\n- Credit card\n- Company information\n\nYour workspace will be deleted in 6 hours!\n\nSlack Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 94,
+    "type": "traditional_phishing",
+    "content": "Zoom: Your account has been compromised!\n\nSomeone changed your password from Russia.\n\nSecure your account now:\nhttps://zoom-account-secure.ml/protect\n\nProvide to secure:\n- Email\n- Password\n- Phone number\n- Credit card\n- Meeting ID\n- Host key\n\nYour account will be suspended in 1 hour!\n\nZoom Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 95,
+    "type": "traditional_phishing",
+    "content": "WhatsApp: Your account will be blocked!\n\nWe detected spam activity from your account.\n\nUnblock your account:\nhttps://whatsapp-unblock-urgent.com/unblock\n\nProvide:\n- Phone number\n- Email address\n- Verification code\n- Credit card\n- ID number\n\nYour account will be permanently blocked in 2 hours!\n\nWhatsApp Support Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 96,
+    "type": "traditional_phishing",
+    "content": "Telegram: Your phone number is being transferred!\n\nSomeone is trying to transfer your phone number.\n\nStop the transfer now:\nhttps://telegram-phone-protect.ml/stop\n\nProvide to stop transfer:\n- Phone number\n- Email\n- Password\n- Two-factor code\n- Credit card\n- ID\n\nTransfer will complete in 30 minutes!\n\nTelegram Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 97,
+    "type": "traditional_phishing",
+    "content": "Discord: Your account has been banned!\n\nYour account violated our Terms of Service.\n\nAppeal the ban:\nhttps://discord-ban-appeal.ml/appeal\n\nProvide for appeal:\n- Username\n- Password\n- Email\n- Phone number\n- Credit card\n- Government ID\n\nAppeal within 24 hours or ban is permanent!\n\nDiscord Trust & Safety",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 98,
+    "type": "traditional_phishing",
+    "content": "TikTok: Your account will be deleted!\n\nWe detected multiple policy violations.\n\nSave your account:\nhttps://tiktok-account-save.ml/save\n\nProvide:\n- Username\n- Password\n- Phone number\n- Email\n- Credit card\n- ID\n\nYour account and all videos will be deleted in 12 hours!\n\nTikTok Support",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 99,
+    "type": "traditional_phishing",
+    "content": "YouTube: Your channel will be terminated!\n\nYour channel received multiple copyright strikes.\n\nSave your channel:\nhttps://youtube-channel-save.ml/appeal\n\nProvide:\n- Channel name\n- Email\n- Password\n- Phone number\n- Credit card\n- Government ID\n- Channel ID\n\nTermination in 6 hours!\n\nYouTube Trust & Safety",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 100,
+    "type": "traditional_phishing",
+    "content": "Spotify: Your account is being used in another country!\n\nYour account is being used from Vietnam.\n\nProtect your account:\nhttps://spotify-account-protect.ml/secure\n\nProvide:\n- Email\n- Password\n- Credit card\n- Phone number\n- Date of birth\n- Address\n\nYour account will be suspended in 2 hours!\n\nSpotify Security",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 101,
+    "type": "llm_generated_phishing",
+    "content": "Dear Valued Customer,\n\nWe are writing to inform you that your account has been selected for a routine security review. This is a standard procedure we conduct to ensure the continued security and integrity of all user accounts.\n\nTo complete this security review, please take a moment to verify your account information by visiting our secure verification portal at:\nhttps://account-secure-verification.com/confirm\n\nDuring the verification process, you may be asked to provide:\n- Your account username or email address\n- Your current password for authentication\n- A valid form of identification\n- Your contact information on file\n\nThis verification process is designed to be straightforward and user-friendly. It should take no more than a few minutes of your time. All information is transmitted using industry-standard encryption to protect your privacy and security.\n\nPlease complete this verification within 48 hours to avoid any interruption to your account services. Failure to complete the verification may result in temporary account restrictions.\n\nIf you have any questions or concerns about this security review, please do not hesitate to contact our customer service team. We are available to assist you 24 hours a day, 7 days a week.\n\nThank you for your prompt attention to this important security matter. We appreciate your cooperation in helping us maintain a secure environment for all our valued customers.\n\nBest regards,\nCustomer Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 102,
+    "type": "llm_generated_phishing",
+    "content": "Dear Customer,\n\nWe hope this message finds you well. We are writing to bring an important security matter to your attention regarding your account.\n\nAs part of our ongoing commitment to account security, we periodically verify that account holders have appropriate access to their accounts. This verification helps us ensure that your account remains secure and that only authorized individuals can access your information.\n\nYour account has been selected for this routine verification. Please complete the process by visiting our secure verification page at:\nhttps://account-access-verify.com/complete\n\nThe verification process may include:\n- Confirming your identity\n- Verifying your login credentials\n- Updating your contact information\n- Reviewing your security settings\n\nThis verification is important to maintain the security and integrity of your account. We appreciate your prompt attention to this matter.\n\nIf you have any questions or need assistance during the verification process, our dedicated support team is available to help you every step of the way.\n\nThank you for your understanding and cooperation.\n\nSincerely,\nAccount Security Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 103,
+    "type": "llm_generated_phishing",
+    "content": "Dear User,\n\nWe are committed to providing you with the highest level of security for your account. As part of this commitment, we are writing to request that you verify your account information.\n\nOur systems have indicated that certain information on your account needs to be refreshed to meet our current security standards. This is a routine update we perform on all accounts to maintain optimal security and service quality.\n\nPlease update your account information by visiting our secure portal at:\nhttps://account-update-secure.com/renew\n\nDuring the update process, you may be asked to provide:\n- Your current login credentials\n- Updated contact information\n- Security question answers\n- Two-factor authentication preferences\n\nThe update process is designed to be simple and efficient. Please choose a strong, unique password that you don't use for other accounts.\n\nFor your security, we recommend:\n- Using a password with at least 12 characters\n- Including a mix of letters, numbers, and special characters\n- Not sharing your password with anyone\n- Changing your password regularly\n\nIf you have any questions about this security update or need assistance, please don't hesitate to reach out to our support team.\n\nThank you for helping us maintain a secure platform for everyone.\n\nBest regards,\nSecurity Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 104,
+    "type": "llm_generated_phishing",
+    "content": "Dear Customer,\n\nThank you for being a valued customer. We are writing to inform you that your account requires an update to ensure continued access to all our services.\n\nOur records indicate that certain account information needs to be verified to meet our current security protocols. This is a standard verification process we conduct periodically to maintain account integrity.\n\nPlease complete the verification by visiting our secure confirmation page at:\nhttps://confirm-account-secure.com/verify\n\nTo complete the confirmation, you will need:\n- Your username or email address\n- Your password\n- Your contact information\n- Security question answers (if applicable)\n\nThis confirmation process is straightforward and typically takes less than five minutes to complete. All information is encrypted and securely transmitted.\n\nPlease complete this verification within 48 hours to avoid any interruption to your account services.\n\nIf you have already confirmed your account recently or believe you have received this message in error, please disregard this email.\n\nOur support team is available 24/7 to answer any questions you may have about this confirmation process.\n\nThank you for your cooperation and prompt attention to this matter.\n\nSincerely,\nCustomer Security Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 105,
+    "type": "llm_generated_phishing",
+    "content": "Dear Valued Customer,\n\nWe hope you're having a wonderful day. We are requesting your assistance in confirming your account information.\n\nAs part of our ongoing commitment to security, we periodically request that customers confirm their account details. This helps us ensure that your account remains secure and that all information is accurate and up-to-date.\n\nPlease confirm your account by visiting our secure confirmation page at:\nhttps://account-confirm-now.com/validate\n\nDuring confirmation, you may be asked to:\n- Confirm your identity\n- Verify your contact information\n- Update security settings\n- Review account preferences\n\nThis confirmation process is designed to be convenient and user-friendly. All information is encrypted and securely stored.\n\nPlease complete this confirmation within 48 hours to avoid any interruption to your account services.\n\nIf you have any questions about this confirmation or need assistance, our support team is available to help you.\n\nThank you for helping us maintain a secure environment for all our customers.\n\nSincerely,\nAccount Verification Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 106,
+    "type": "llm_generated_phishing",
+    "content": "Dear Customer,\n\nWe are writing to inform you of an important verification required for your account.\n\nOur systems have indicated that your account information needs verification to ensure continued service and security. This is a standard verification process we conduct periodically to maintain account integrity.\n\nPlease complete the verification by visiting:\nhttps://account-verify-now.com/verify\n\nDuring verification, you may be asked to:\n- Confirm your identity\n- Verify your contact information\n- Update security settings\n- Review account preferences\n\nThis verification process is designed to be convenient and user-friendly. All information is encrypted and securely transmitted.\n\nPlease complete this verification within 48 hours to avoid any interruption to your account services.\n\nIf you have any questions about this verification or need assistance, our support team is available to help you.\n\nThank you for your cooperation and prompt attention to this matter.\n\nBest wishes,\nAccount Verification Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 107,
+    "type": "llm_generated_phishing",
+    "content": "Dear Valued Customer,\n\nWe are committed to maintaining the highest standards of security for your account. As part of our security protocols, we are requesting that you update your security credentials.\n\nRegular updates to security credentials help protect your account from unauthorized access and ensure that your personal and financial information remains secure. Your account has been selected for this routine update.\n\nPlease update your security credentials by visiting:\nhttps://security-credentials-update.com/update\n\nYou will need to update:\n- Your password\n- Security questions and answers\n- Two-factor authentication settings\n- Recovery email and phone number\n\nThe update process is designed to be simple and efficient. Please choose a strong, unique password that you don't use for other accounts.\n\nFor your security, we recommend:\n- Using a password with at least 12 characters\n- Including a mix of letters, numbers, and special characters\n- Not sharing your password with anyone\n- Changing your password regularly\n\nIf you have any questions about this security update or need assistance, please contact our support team.\n\nThank you for helping us maintain a secure platform for everyone.\n\nBest regards,\nSecurity Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 108,
+    "type": "llm_generated_phishing",
+    "content": "Dear Customer,\n\nWe hope this email finds you well. We are writing to inform you of an important update required for your account.\n\nOur systems have identified that certain information on your account needs to be updated to meet our current security standards. This is a routine update we perform on all accounts to maintain optimal security and service quality.\n\nPlease update your account information by visiting:\nhttps://account-update-now.com/update\n\nDuring the update process, you may be asked to provide or verify:\n- Your account username or email address\n- Your current password\n- Your contact information\n- Security question answers\n\nThe update process is designed to be user-friendly and can be completed in just a few minutes. All information is transmitted using the latest encryption technology to protect your privacy and security.\n\nWe understand that updates can sometimes be inconvenient, and we sincerely apologize for any disruption this may cause. However, these updates are essential to maintaining the security and reliability of our service.\n\nIf you have any questions or need assistance, please don't hesitate to reach out to our support team.\n\nThank you for your prompt attention to this important matter.\n\nBest regards,\nCustomer Experience Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 109,
+    "type": "llm_generated_phishing",
+    "content": "Dear Valued Customer,\n\nThank you for your continued trust in our services. We are writing to inform you of an important security measure being implemented across our platform.\n\nAs part of these enhanced security protocols, we require all users to verify their account information. This verification helps us ensure that your account remains secure and accessible only to you.\n\nTo complete the verification process, please visit:\nhttps://account-verification-portal.com/secure\n\nWhat you'll need:\n- Your account username or email address\n- A valid form of identification\n- Access to your registered email or phone\n- Your current password\n\nThe verification process is designed to be straightforward and user-friendly. Should you encounter any difficulties, our support team is available 24/7 to assist you.\n\nWe appreciate your prompt attention to this matter and thank you for helping us maintain a secure environment for all users.\n\nBest regards,\nCustomer Security & Compliance Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 110,
+    "type": "llm_generated_phishing",
+    "content": "Dear Customer,\n\nWe hope you are having a pleasant day. We are contacting you regarding a recent security review of your account.\n\nOur automated security monitoring systems have flagged certain activities on your account that require additional review. This is a standard procedure we implement to protect all our users from potential security threats.\n\nPlease review your recent account activity by visiting:\nhttps://activity-review-secure.com/review\n\nDuring this review, you may be asked to:\n1. Confirm your recent login locations\n2. Verify recent transactions\n3. Update your security settings\n4. Confirm your contact information\n\nThis review process helps ensure that all activity on your account is authorized and helps us detect and prevent unauthorized access.\n\nIf you notice any activity you don't recognize, please report it immediately through our secure reporting system.\n\nFor any questions about this security review, please contact our security team. We are available around the clock to assist you.\n\nThank you for your cooperation in helping us maintain a secure platform.\n\nBest wishes,\nSecurity Operations Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 111,
+    "type": "hybrid_attack",
+    "content": "Critical Security Alert: Multi-Stage Account Verification Required\n\nYour account has been flagged for comprehensive security verification due to unusual login patterns detected from multiple geographic locations.\n\nVerification Phase 1: Immediate Identity Confirmation\nConfirm your identity by providing:\n- Full legal name\n- Date of birth\n- Government-issued ID number\n- Current residential address\n- Primary phone number\n- Registered email address\n\nComplete Phase 1 at: https://security-phase1-verify.com/identity\n\nPhase 1 must be completed within 6 hours or your account will be temporarily locked.\n\nVerification Phase 2: Device and Access Authorization\nAfter completing Phase 1, you must authorize your current device and access methods:\n- Register current device (model, OS, IP address)\n- Authorize current browser and location\n- Set up device fingerprint\n- Configure access restrictions\n\nComplete Phase 2 at: https://security-phase2-authorize.com/device\n\nPhase 2 must be completed within 12 hours of Phase 1 completion.\n\nVerification Phase 3: Financial Information Validation\nValidate your financial data:\n- Credit card information (number, CVV, expiration)\n- Bank account details\n- Payment history verification\n- Transaction patterns review\n\nComplete Phase 3 at: https://security-phase3-financial.com/validate\n\nPhase 3 must be completed within 24 hours of Phase 2 completion.\n\nVerification Phase 4: Security Protocol Implementation\nFinal security measures:\n- Create new strong password (minimum 14 characters)\n- Set up two-factor authentication\n- Configure biometric verification\n- Generate recovery codes\n- Set up emergency contacts\n\nComplete Phase 4 at: https://security-phase4-protocols.com/implement\n\nPhase 4 must be completed within 48 hours of Phase 3 completion.\n\n⚠️ CRITICAL SECURITY NOTICE:\nAll four phases must be completed in sequential order\nIncomplete verification will result in permanent account suspension\nAll data must be accurate and verified\nDo not share verification codes with anyone\n\nFor assistance, contact our 24/7 emergency security team at: security-emergency@support-verify.com\n\nComprehensive Security Verification Department\nAdvanced Threat Protection Systems",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 112,
+    "type": "hybrid_attack",
+    "content": "Urgent: Complete Account Security Audit Within 48 Hours\n\nDear Account Holder,\n\nThis is an official notification requiring a comprehensive multi-layered security audit of your account. Our advanced threat detection systems have identified potential compromise indicators requiring immediate verification.\n\nAudit Layer 1: Digital Identity Verification\nVerify your complete digital identity:\n- Government-issued photo ID (front and back)\n- Passport or driver's license\n- Selfie verification with ID\n- Biometric facial recognition scan\n- Voice print sample\n\nComplete Layer 1 at: https://audit-layer1-identity.com/verify\nLayer 1 requires: Upload photos and complete biometric scan\n\nAudit Layer 2: Credential and Access Validation\nValidate all credentials:\n- Username and password\n- Security question answers\n- Two-factor authentication setup\n- Recovery email and phone\n- Session tokens and cookies\n\nComplete Layer 2 at: https://audit-layer2-credentials.com/validate\nLayer 2 requires: Enter all current credentials\n\nAudit Layer 3: Financial History and Payment Methods\nComprehensive financial review:\n- Last 50 transactions\n- All linked payment methods\n- Bank account verification\n- Credit history report\n- Income and employment verification\n\nComplete Layer 3 at: https://audit-layer3-financial.com/review\nLayer 3 requires: Provide detailed financial information\n\nAudit Layer 4: Network and Device Fingerprinting\nDevice and network analysis:\n- Device hardware fingerprint\n- Browser and software profile\n- IP address and geolocation\n- Network provider details\n- MAC address and DNS configuration\n\nComplete Layer 4 at: https://audit-layer4-network.com/fingerprint\nLayer 4 requires: Run device profiling tool\n\nAudit Layer 5: Final Security Clearance\nComplete authorization:\n- Digital signature\n- Legal authorization document\n- Consent to monitoring\n- Security agreement acceptance\n\nComplete Layer 5 at: https://audit-layer5-clearance.com/authorize\nLayer 5 requires: Sign and submit authorization\n\n⚠️ MANDATORY REQUIREMENTS:\nAll 5 layers must be completed in order\nEach layer must be completed within 12 hours of previous layer\nTotal completion time: 60 hours maximum\nIncomplete audits will result in immediate account closure\n\nEmergency Audit Hotline: +1-800-SECURE-AUDIT\nSecurity Audit Department\nGlobal Threat Intelligence Division",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 113,
+    "type": "hybrid_attack",
+    "content": "Emergency: Your Account Requires Complete Re-verification Protocol\n\nDear User,\n\nWe have detected sophisticated attack attempts targeting your account. To ensure your protection, we have initiated a complete re-verification protocol.\n\nRe-verification Step 1: Account Ownership Proof\nProve you own this account:\n- Original registration email\n- Original phone number\n- Original IP address\n- Account creation date\n- First transaction details\n\nSubmit proof at: https://reverify-step1-ownership.com/submit\n\nRe-verification Step 2: Security Question Overhaul\nUpdate all security information:\n- Create 5 new security questions\n- Change all security answers\n- Set up challenge-response system\n- Configure hint system\n\nComplete at: https://reverify-step2-questions.com/update\n\nRe-verification Step 3: Multi-Factor Authentication Setup\nConfigure comprehensive 2FA:\n- SMS verification\n- Email verification code\n- Authenticator app\n- Hardware security key\n- Backup verification codes\n\nSetup at: https://reverify-step3-2fa.com/configure\n\nRe-verification Step 4: Account Activity Analysis\nReview and authorize all activity:\n- Login history (last 30 days)\n- Device connections\n- IP addresses used\n- Locations accessed\n- Transaction history\n\nAnalyze at: https://reverify-step4-activity.com/review\n\n⚠️ TIME-SENSITIVE:\nAll steps must be completed within 24 hours\nFailure to complete will result in permanent account termination\nYour data will be deleted after 72 hours\n\nImmediate Action Required\nRe-verification Emergency Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 114,
+    "type": "hybrid_attack",
+    "content": "Security Incident: Account Compromised - Immediate Action Required\n\nCritical Alert: Your account has been compromised by advanced persistent threat actors.\n\nImmediate Response Phase 1: Account Isolation\nIsolate your account:\n- Freeze all transactions\n- Disable all payment methods\n- Revoke all sessions\n- Lock all linked accounts\n- Disable API access\n\nExecute Phase 1 at: https://response-phase1-isolate.com/freeze\n\nImmediate Response Phase 2: Credential Reset\nReset all credentials:\n- Generate new password\n- Create new security questions\n- Invalidate old recovery methods\n- Reset 2FA codes\n- Clear all stored data\n\nExecute Phase 2 at: https://response-phase2-reset.com/credentials\n\nImmediate Response Phase 3: Forensic Investigation\nProvide investigation data:\n- Access logs for past 90 days\n- All email communications\n- Transaction records\n- Device usage history\n- Network connection details\n\nSubmit data at: https://response-phase3-investigate.com/evidence\n\nImmediate Response Phase 4: System Hardening\nStrengthen your security:\n- Enable advanced encryption\n- Set up real-time monitoring\n- Configure behavioral analysis\n- Implement anomaly detection\n- Activate intrusion prevention\n\nExecute Phase 4 at: https://response-phase4-harden.com/protect\n\n⚠️ CRITICAL: Complete all 4 phases within 12 hours\nIncomplete response will result in permanent account deletion\nSecurity Incident Response Team\nCyber Threat Operations Center",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 115,
+    "type": "traditional_phishing",
+    "content": "FINAL NOTICE: Your account is PENDING DELETION!\n\n⚠️ WARNING: Account will be deleted in 2 HOURS!\n\nYour account has been flagged for deletion due to inactivity and security violations.\n\nTo SAVE YOUR ACCOUNT, you MUST verify NOW:\nhttps://save-account-immediate.tk/verify\n\nURGENT: Provide the following:\n• Username and Password\n• Full Name\n• Date of Birth\n• Phone Number\n• Credit Card Number\n• CVV Code\n• Billing Address\n• Social Security Number\n\n⏰ TIME REMAINING: 1:59:32\n\nDELETE IMMEDIATELY if you DO NOT WANT to lose your account!\n\nFINAL WARNING! This is your LAST NOTICE!\n\nAccount Management Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 116,
+    "type": "traditional_phishing",
+    "content": "🔴 RED ALERT: Federal Investigation Required!\n\nYOUR ACCOUNT IS UNDER FEDERAL INVESTIGATION!\n\nThe FBI and Federal Trade Commission are investigating your account for suspicious financial activities totaling $50,000+!\n\n⚠️ IMMEDIATE ACTION REQUIRED OR YOU WILL BE ARRESTED!\n\nSubmit verification NOW:\nhttps://federal-investigation-urgent.ml/submit\n\nFederal investigators REQUIRE:\n✓ Full Legal Name\n✓ Social Security Number\n✓ Driver's License Number\n✓ Bank Account Number and Routing Number\n✓ Credit Card Details\n✓ Home Address\n✓ Phone Number\n✓ Employment Information\n✓ Tax ID Number\n\n⚠️ FEDERAL NOTICE:\nFailure to provide verification within 6 HOURS will result in:\n• IMMEDIATE ARREST\n• FEDERAL CHARGES\n• ASSET FREEZE\n• CRIMINAL RECORD\n• COURT APPEARANCE\n\nThis is an OFFICIAL FEDERAL NOTIFICATION!\n\nFederal Bureau of Investigation\nFinancial Crimes Division",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 117,
+    "type": "traditional_phishing",
+    "content": "🎉 CONGRATULATIONS! You've WON $5,000,000!\n\n🏆 PRIZE WINNER NOTIFICATION!\n\nYou have been randomly selected as the GRAND PRIZE WINNER in our international lottery!\n\n💰 PRIZE AMOUNT: $5,000,000 USD (FIVE MILLION DOLLARS!)\n\n📋 To claim your prize, IMMEDIATELY provide:\n1. Full Name\n2. Home Address\n3. Phone Number\n4. Email Address\n5. Date of Birth\n6. Bank Account Number\n7. Routing Number\n8. Credit Card Number\n9. CVV Security Code\n10. Government ID Number\n\n⚠️ URGENT: Claim prize NOW at:\nhttps://claim-5-million-winner.tk/prize\n\n⏰ DEADLINE: Claim within 24 HOURS or prize is FORFEITED!\n\n🚨 ACT IMMEDIATELY!\n\nInternational Lottery Commission\nPrize Distribution Department",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 118,
+    "type": "traditional_phishing",
+    "content": "IRS: FINAL TAX AUDIT NOTICE - IMMEDIATE ACTION REQUIRED!\n\n⚠️ OFFICIAL IRS NOTIFICATION\n\nYour tax return for 2023 is under AUDIT!\n\nDISCREPANCIES FOUND: You owe additional taxes of $12,847.52!\n\n⚠️ LEGAL ACTION IMMINENT!\n\nIMMEDIATE PAYMENT REQUIRED:\nhttps://irs-tax-audit-urgent.xyz/pay\n\nPayment Methods ACCEPTED:\n• Credit Card (Visa, MasterCard, Amex)\n• Bank Wire Transfer\n• PayPal (not recommended)\n• Bitcoin (additional 15% fee)\n• Western Union\n\n⚠️ CONSEQUENCES OF NON-PAYMENT:\n• Wage Garnishment\n• Bank Account Levy\n• Property Lien\n• Federal Tax Lien\n• Criminal Prosecution\n• Jail Time (up to 5 years)\n• Credit Score Destruction\n\n⏰ PAY DEADLINE: TODAY BEFORE 5:00 PM EST!\n\n⚠️ FEDERAL NOTICE:\nFailure to pay will result in IMMEDIATE LEGAL ACTION!\n\nInternal Revenue Service\nDepartment of Treasury\nCriminal Investigation Division",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 119,
+    "type": "traditional_phishing",
+    "content": "EMERGENCY: Your Bank Account Will Be CLOSED!\n\n🚨 CRITICAL ACCOUNT ALERT!\n\nYour account is scheduled for IMMEDIATE CLOSURE!\n\nCLOSURE REASON: Multiple security violations and unauthorized access attempts!\n\n⏰ CLOSURE TIME: 30 MINUTES!\n\nTo PREVENT ACCOUNT CLOSURE, verify NOW:\nhttps://bank-account-save-urgent.ml/verify\n\nURGENT VERIFICATION REQUIRED:\n✓ Account Number\n✓ Username\n✓ Password\n✓ PIN Code\n✓ Security Question Answers\n✓ Mother's Maiden Name\n✓ SSN Last 4 Digits\n✓ Credit Card Number\n✓ CVV Code\n✓ Expiration Date\n✓ Billing Address\n✓ Driver's License Number\n\n⚠️ WARNING:\nAll funds will be PERMANENTLY FROZEN!\nAll automatic payments will FAIL!\nDirect deposits will be RETURNED!\nCredit cards on file will be CANCELLED!\n\nVERIFY IMMEDIATELY!\n\nAccount Security Department\nUrgent Response Team",
+    "is_phishing": true,
+    "label": 1
+  },
+  {
+    "id": 120,
+    "type": "traditional_phishing",
+    "content": "FINAL WARNING: Your Email Account is BLOCKED!\n\n🚨 ACCOUNT SUSPENDED!\n\nYour email account has been BLOCKED due to suspicious activity!\n\nBLOCK REASON: Phishing and spam activity detected!\n\n⏰ UNBLOCK DEADLINE: 1 HOUR!\n\nTo RESTORE ACCESS, verify NOW:\nhttps://email-unblock-immediate.tk/unblock\n\nIMMEDIATE VERIFICATION NEEDED:\n• Email Address\n• Password\n• Recovery Email\n• Recovery Phone\n• Birth Date\n• Secret Question Answer\n• Backup Email\n• Alternative Phone\n• Government ID\n• Full Name\n• Address\n\n⚠️ CONSEQUENCES:\n• All emails will be DELETED!\n• All contacts will be LOST!\n• All files will be REMOVED!\n• Account will be PERMANENTLY CLOSED!\n\n⏰ TIME REMAINING: 59:23\n\nACT NOW OR LOSE EVERYTHING!\n\nEmail Security Team\nAccount Recovery Division",
+    "is_phishing": true,
+    "label": 1
   }
 ]

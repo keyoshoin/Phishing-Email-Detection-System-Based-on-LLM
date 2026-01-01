@@ -17,20 +17,24 @@ except ImportError:
 
 from models.feature_extractor import HybridFeatureExtractor
 from models.llm_analyzer import LLMAnalyzer
+from models.hybrid_attack_detector import HybridAttackDetector
+from models.llm_attack_detector import LLMAttackDetector
 from utils.helpers import format_detection_result
 from config import PHISHING_THRESHOLD, HIGH_RISK_THRESHOLD, LOW_RISK_THRESHOLD
 
 
 class PhishingDetector:
     """钓鱼邮件检测器"""
-    
+
     def __init__(self):
         self.feature_extractor = HybridFeatureExtractor()
         self.llm_analyzer = LLMAnalyzer()
+        self.hybrid_detector = HybridAttackDetector()
+        self.llm_attack_detector = LLMAttackDetector()
         self.ml_model = None
         self.scaler = None
         self.model_trained = False
-        
+
         # 尝试加载预训练模型
         self._load_model()
     
@@ -195,26 +199,50 @@ class PhishingDetector:
         """检测邮件是否为钓鱼邮件"""
         # 提取特征
         features = self.feature_extractor.extract_features(text)
-        
+
         # 选择检测方法
         if self.model_trained and self.ml_model is not None:
             risk_score, confidence = self._ml_based_detection(features)
         else:
             risk_score, confidence = self._rule_based_detection(features)
-        
+
         # 判断是否为钓鱼邮件
         is_phishing = risk_score >= (PHISHING_THRESHOLD * 100)
-        
+
         # 使用LLM增强分析
         llm_analysis = self.llm_analyzer.analyze_with_gpt(text, features)
-        
+
+        # 检测LLM生成攻击
+        llm_attack_result = self.llm_attack_detector.detect_llm_generated(text, features)
+        llm_phishing_patterns = self.llm_attack_detector.detect_llm_phishing_pattern(text)
+
+        # 检测混合攻击链
+        hybrid_attack_result = self.hybrid_detector.detect_attack_chain(text, features)
+
+        # 综合评分调整
+        # 如果检测到LLM生成且是钓鱼邮件，提高风险评分
+        if llm_attack_result['is_llm_generated'] and is_phishing:
+            risk_score = min(risk_score * 1.1, 100)
+            confidence = min(confidence * 1.05, 100)
+
+        # 如果检测到混合攻击链，提高风险评分
+        if hybrid_attack_result['is_hybrid_attack']:
+            risk_score = min(risk_score * 1.15, 100)
+            confidence = min(confidence * 1.1, 100)
+
         # 如果LLM和规则检测结果不一致，调整置信度
         if llm_analysis.get('is_phishing') != is_phishing:
             confidence = confidence * 0.8
-        
+
         # 合并LLM的建议
         suggestions = llm_analysis.get('suggestions', [])
-        
+
+        # 添加针对LLM攻击和混合攻击的建议
+        if llm_attack_result['is_llm_generated']:
+            suggestions.append("警告：此邮件可能由AI生成，需特别谨慎")
+        if hybrid_attack_result['is_hybrid_attack']:
+            suggestions.append("警告：检测到混合攻击链特征，多阶段威胁")
+
         # 格式化结果
         result = format_detection_result(
             risk_score=risk_score,
@@ -223,10 +251,24 @@ class PhishingDetector:
             features=features,
             suggestions=suggestions
         )
-        
+
         # 添加风险点
         result['risk_points'] = llm_analysis.get('risk_points', [])
-        
+
+        # 添加攻击检测详情
+        result['llm_attack'] = llm_attack_result
+        result['hybrid_attack'] = hybrid_attack_result
+
+        # 更新攻击类型标签
+        attack_types = []
+        if llm_attack_result['is_llm_generated']:
+            attack_types.append('LLM生成攻击')
+        if hybrid_attack_result['is_hybrid_attack']:
+            attack_types.append('混合攻击链')
+        if not attack_types and is_phishing:
+            attack_types.append('传统钓鱼攻击')
+        result['attack_types'] = attack_types if attack_types else ['正常邮件']
+
         return result
     
     def batch_detect(self, texts: list) -> list:
@@ -241,8 +283,30 @@ class PhishingDetector:
         """生成详细报告"""
         result = self.detect(text)
         features = result.get('features', {})
-        
+
+        # 基础报告
         report = self.llm_analyzer.generate_report(text, features, result)
+
+        # 添加LLM攻击分析
+        if result.get('llm_attack', {}).get('is_llm_generated'):
+            llm_report = self.llm_attack_detector.generate_llm_attack_report(
+                result['llm_attack'],
+                self.llm_attack_detector.detect_llm_phishing_pattern(text)
+            )
+            report += "\n\n" + llm_report
+
+        # 添加混合攻击链分析
+        if result.get('hybrid_attack', {}).get('is_hybrid_attack'):
+            hybrid_report = self.hybrid_detector.generate_attack_chain_report(
+                result['hybrid_attack']
+            )
+            report += "\n\n" + hybrid_report
+
+        # 添加攻击类型总结
+        attack_types = result.get('attack_types', [])
+        if attack_types and '正常邮件' not in attack_types:
+            report += f"\n\n攻击类型: {', '.join(attack_types)}"
+
         return report
 
 

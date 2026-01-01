@@ -311,6 +311,47 @@ body {
     color: white;
 }
 
+/* 攻击类型徽章 */
+.attack-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    margin: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* 阶段标签 */
+.stage-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    margin: 3px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* 徽章类 */
+.badge-danger {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.badge-warning {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.badge-success {
+    color: #27ae60;
+    font-weight: bold;
+}
+
 /* 列表 */
 .feature-list {
     list-style: none;
